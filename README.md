@@ -1,1 +1,3 @@
-# yapei-mobile
+# yapei
+# npm install
+# npm run dev

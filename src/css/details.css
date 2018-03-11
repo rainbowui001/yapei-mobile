@@ -1,0 +1,427 @@
+
+@media screen and (max-width: 1280px){
+    .detialsindexCondition{
+        margin-top: 10px !important;
+    }
+    /*模态框*/
+.modal-dialog{
+    margin-top: 150px;
+    }
+    .modal-header{
+    color: #7A3D8F;
+    background-color: #FDF4FC;
+    text-align: center;
+    border: none;
+    }
+    .modal-header > h4{
+    font-weight: bold;
+    font-size: 18px;
+    }
+    .modal-body{
+    margin: 30px;
+    border: 1px solid #eee;
+    padding: 20px;
+    }
+    .modal-footer{
+    border: 0;
+    text-align: center;
+    }
+    .btn-purpel{
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    background-color: #7A3D8F;
+    border-radius: 5px;
+    font-size: 12px;
+    }
+    .modal-header >button{
+    position: absolute;
+    top: -60px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #fff;
+    right: 20px;
+    }
+    .modal-header >button > span{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 40px;
+    }
+    .modal-header > button > span::before{
+    content: "";
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+    position: absolute;
+    border-radius: 20px;
+    right: 0.5px;
+    top: 2px;
+    
+    }
+    .modal-header > button > span::after{
+    content: "";
+    height: 30px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    
+    }
+    .close:focus, .close:hover{
+    color: #fff;
+    }
+
+    .indexConditionOneContentData {
+        width: 25%;
+        padding: 2.5em 1em 0px 1.5em;
+    }
+    .detailsData{
+        text-align: center;
+        height: 140px;
+        background-color: none;
+        line-height: 160px;
+        position: relative;
+    }
+    .detailsData>span{
+        font-size: 18px;
+        position: absolute;
+        right: 35%;
+        top:4px;
+        color: #fff;
+    }
+    .detialConditionOneContent{
+        overflow: hidden;
+        padding:20px 40px 10px 40px;
+        border-bottom: 1px solid #edebf9;
+    }
+    .detialConditionData,
+    .detailsItem
+    {
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    .detialConditionDataInputL{
+        width:50%;
+        float: left;
+    }
+    .detialConditionDataInputL>input,
+    .detialConditionDataInputR>input,
+    .detialConditionData>div>input
+    {
+        width: 160px ;
+        border: 1px solid #eeeeee;
+        border-radius: 3px;
+        height: 35px;
+        line-height: 35px;
+        margin-left: 10px;
+        padding: 0 5px;
+
+    }
+    .detialConditionDataInputL>span,
+    .detialConditionDataInputR>span,
+    .detialConditionData>span
+    {
+      width: 100px;
+      display: inline-block;
+      text-align: end;
+    }
+    .detialConditionDataInputL>span>span,
+    .detialConditionDataInputR>span>span,
+    .detailNumber,
+    .detialConditionCity>span>span,
+    .detialConditionCity>div>select,
+    .detialConditionPhone>span>span,
+    .detialConditionPhone>div
+    {
+        font-size: 14px;
+    }
+    .detialConditionDataInputL>span>:nth-child(1),
+    .detialConditionDataInputR>span>:nth-child(1),
+    .detialConditionPhone>span>:nth-child(1)
+    {
+        color: red
+    }
+    .detialConditionDataInputR{
+        width:40%;
+        float: left;
+    }
+    .detailNumber{
+        margin-left: 10px;
+        width: 170px;
+        display: inline-block;
+        text-align: left !important;
+    }
+    .detailNumber>input{
+        padding: 0 5px;
+        width: 25px !important;
+        margin: 0 10px;
+        border-radius: 2px;
+        border: 1px solid #eeee;
+    }
+    .detialConditionCity>div,
+    .detialConditionPhone>div,
+    .detialConditionMobile>div
+    {
+        display: inline-block;
+    }
+    .detialConditionData>div>select{
+        width: 80px ;
+        border: 1px solid #eeeeee;
+        border-radius: 3px;
+        height: 35px;
+        line-height: 35px;
+        margin-left: 10px;
+    }
+    .detialConditionPhone>div>:nth-child(1){
+        width: 40px !important;
+        padding: 0 5px;
+    }
+    .detialConditionPhone>div>:nth-child(2){
+        width: 100px !important;
+        padding: 0 5px;
+
+    } .detialConditionPhone>div>:nth-child(3){
+        width: 80px !important;
+        padding: 0 5px;
+
+    }
+    .detailsItem{
+        font-size:14px;
+    }
+    .detailsItem>span{
+        color: #8823a0;
+    }
+    .detailsItem>input[type=checkbox]{
+        font-size: 14px;
+        border:1px solid #8823a0 !important;
+    }
+    .detailsButton{
+        text-align: center;
+    }
+    .detailsButton>button{
+        font-size: 15px;
+        color: #fff;
+        height: 40px;
+        line-height: 40px;
+        width:100px;
+        border: none;
+        border-radius: 5px;
+    }
+    
+    .detailsButton>:nth-child(1){
+        background-color:#f49300;
+        margin-right: 30px;
+    }
+    .detailsButton>:nth-child(2){
+        background-color:#cdcdcd;
+    }
+}
+
+
+
+
+@media screen and (min-width: 1280px){
+        /* details */
+        .detailsData{
+            text-align: center;
+            height: 140px;
+            background-color: none;
+            line-height: 160px;
+            position: relative;
+        }
+        .detailsData>span{
+            font-size: 18px;
+            position: absolute;
+            right: 38%;
+            top:4px;
+            color: #fff;
+        }
+        .detialConditionOneContent{
+            overflow: hidden;
+            padding:40px 80px 20px 80px;
+            border-bottom: 1px solid #edebf9;
+        }
+        .detialConditionData,
+        .detailsItem
+        {
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+        .detialConditionDataInputL{
+            width:50%;
+            float: left;
+        }
+        .detialConditionDataInputL>input,
+        .detialConditionDataInputR>input,
+        .detialConditionData>div>input
+        {
+            width: 240px ;
+            border: 1px solid #eeeeee;
+            border-radius: 3px;
+            height: 35px;
+            line-height: 35px;
+            margin-left: 10px;
+            padding: 0 5px;
+
+        }
+        .detialConditionDataInputL>span,
+        .detialConditionDataInputR>span,
+        .detialConditionData>span
+        {
+          width: 100px;
+          display: inline-block;
+          text-align: end;
+        }
+        .detialConditionDataInputL>span>span,
+        .detialConditionDataInputR>span>span{
+            font-size: 14px;
+        }
+        .detialConditionDataInputL>span>:nth-child(1),
+        .detialConditionDataInputR>span>:nth-child(1),
+        .detialConditionPhone>span>:nth-child(1)
+        {
+            color: red
+        }
+        .detialConditionDataInputR{
+            width:40%;
+            float: left;
+        }
+        .detailNumber{
+            margin-left: 10px;
+            width: 240px;
+            display: inline-block;
+            text-align: left !important;
+        }
+        .detailNumber>input{
+            padding: 0 5px;
+            width: 25px !important;
+            margin: 0 10px;
+            border-radius: 2px;
+            border: 1px solid #eeee;
+        }
+        .detialConditionCity>div,
+        .detialConditionPhone>div,
+        .detialConditionMobile>div
+        {
+            display: inline-block;
+        }
+        .detialConditionData>div>select{
+            width: 80px ;
+            border: 1px solid #eeeeee;
+            border-radius: 3px;
+            height: 35px;
+            line-height: 35px;
+            margin-left: 10px;
+        }
+        .detialConditionPhone>div>:nth-child(1){
+            width: 40px !important;
+            padding: 0 5px;
+        }
+        .detialConditionPhone>div>:nth-child(2){
+            width: 100px !important;
+            padding: 0 5px;
+
+        } .detialConditionPhone>div>:nth-child(3){
+            width: 80px !important;
+            padding: 0 5px;
+
+        }
+        .detailsItem>span{
+            color: #8823a0;
+        }
+        .detailsItem>input[type=checkbox]{
+            border:1px solid #8823a0 !important;
+        }
+        .detailsButton{
+            text-align: center;
+        }
+        .detailsButton>button{
+            font-size: 12px;
+            color: #fff;
+            height: 40px;
+            line-height: 40px;
+            width:100px;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .detailsButton>:nth-child(1){
+            background-color:#f49300;
+            margin-right: 30px;
+        }
+        .detailsButton>:nth-child(2){
+            background-color:#cdcdcd;
+        }
+        /*模态框*/
+.modal-dialog{
+    margin-top: 150px;
+    }
+    .modal-header{
+    color: #7A3D8F;
+    background-color: #FDF4FC;
+    text-align: center;
+    border: none;
+    }
+    .modal-header > h4{
+    font-weight: bold;
+    font-size: 18px;
+    }
+    .modal-body{
+    margin: 30px;
+    border: 1px solid #eee;
+    padding: 20px;
+    }
+    .modal-footer{
+    border: 0;
+    text-align: center;
+    }
+    .btn-purpel{
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    background-color: #7A3D8F;
+    border-radius: 5px;
+    font-size: 12px;
+    }
+    .modal-header >button{
+    position: absolute;
+    top: -60px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #fff;
+    right: 20px;
+    }
+    .modal-header >button > span{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 40px;
+    }
+    .modal-header > button > span::before{
+    content: "";
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+    position: absolute;
+    border-radius: 20px;
+    right: 0.5px;
+    top: 2px;
+    
+    }
+    .modal-header > button > span::after{
+    content: "";
+    height: 30px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    
+    }
+    .close:focus, .close:hover{
+    color: #fff;
+    }
+    .detialsindexCondition{
+        margin-top: 10px !important;
+    }
+ }
