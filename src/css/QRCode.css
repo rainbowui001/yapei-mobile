@@ -1,0 +1,23 @@
+body{
+    background-image: none;
+}
+.content{
+   width: 100%;
+   background-color: #fff;
+   margin: 40px auto;
+}
+.content>:nth-child(1){
+    width: 240px;
+    padding:10px;
+    border:2px solid #d0b9d8;
+    margin: 0px auto;
+    text-align: center;
+}
+.content>:nth-child(2){
+    width: 240px;  
+    margin: 20px auto;
+    font-size: 15px;
+}
+.content>:nth-child(2)>p{
+    margin-bottom: 5px;
+}
