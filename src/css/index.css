@@ -174,10 +174,13 @@
         background-color: #fff;
         border-radius: 5px;
         position: relative;
+        padding:0 5px;
     }
     .recomm>:nth-child(1){
         position: absolute;
         top:-4px;
+        left: -1px;
+
     }
     .recomm>:nth-child(1)>img{
         width: 50%;
