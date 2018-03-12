@@ -21,39 +21,34 @@
 
 <body>
   <!-- head -->
+
   <div class="head">
     <div class="headLink">
       <div>
-        <div>
-          <a href="#">
-            <img src="./images/logo.png" width="50%" />
-          </a>
-        </div>
-        <div>
-          <a href="#">
-            <img src="./images/icon_home.png" width="10%" />
-          </a>
-          <a href="#">
-            <img src="images/icon_user.png" width="13%">
-            <span class="user-content">會員登入/註冊</span>
-          </a>
-        </div>
+        <a href="#">
+          <img src="./images/logo.png" />
+        </a>
+        <a href="#">
+          <img src="images/icon_user.png">
+        </a>
+        <a href="#">
+          <img src="./images/icon_home.png" />
+        </a>
       </div>
     </div>
-    <img src="./images/pc_kv.jpg" alt="kv-banner"></img>
+    <div class="headT"></div>
+    <img src="./images/m_kv.jpg" alt="kv-banner"></img>
   </div>
-
   <!-- content -->
   <div class="content">
     <!-- 轮播头部 -->
     <div class="contentNav">
       <div class="tab">
-        <button class="tabButton showButton">推薦場次</button>
-        <button class="tabButton">北部（含宜花)</button>
-        <button class="tabButton">中部</button>
-        <button class="tabButton">南部</button>
+        <div class="tabButton showButton">推薦場次</div>
+        <div class="tabButton">北部（含宜花)</div>
+        <div class="tabButton">中部</div>
+        <div class="tabButton">南部</div>
       </div>
-
     </div>
     <!-- 轮播内容 -->
     <div class="tab-content">
@@ -128,270 +123,99 @@
       </div>
 
     </div>
+    <!-- 课程 -->
+    <div class="classKind">
+      <div class="className">
+        <span>搜索課程 : </span>
+        <div class="classInput">
+          <input type="text" class="search-input" placeholder="yyyy-mm-dd" value="" id="dpd1"> &nbsp;至&nbsp;
+          <input type="text" class="search-input" placeholder="yyyy-mm-dd" value="" id="dpd2">
+        </div>
+      </div>
+      <div>
+        <input type="text" name="lname" placeholder="請輸入要查找的關鍵字" />
+        <span class="classSearch">
+          <span class="glyphicon glyphicon-search"></span>
+        </span>
+      </div>
+    </div>
 
-    <div class="tab-content">
-      <!-- next -->
-      <div class="indexData">
+    <!-- 推荐场次 -->
+    <div class="recomm">
+      <!-- <div>
+        <img  src="./images/recomm.png" >
+      </div> -->
+      <div class="recommContent">
+        <div>活動主題</div>
         <div>
-          <img src="./images/search.png" width="100%" />
-        </div>
-        <div class="indexDataContent">
-          <div class="indexDataContentData">
-            <!-- <form > -->
-            <span>按日期搜索 : </span>
-            <div> &nbsp;從&nbsp;
-              <input type="text" class="search-input" placeholder="yyyy-mm-dd" value="" id="dpd1"> &nbsp;至&nbsp;
-              <input type="text" class="search-input" placeholder="yyyy-mm-dd" value="" id="dpd2">
-            </div>
-            <!-- </form> -->
-          </div>
-
-          <div class="indexDataContentWrite">
-            <!-- <form> -->
-            <span>關鍵字搜索 : </span>
-            <div>
-              <input type="text" name="lname" placeholder="請輸入要查找的關鍵字" />
-            </div>
-            <div class="indexButton">
-              <button>立即搜索</button>
-            </div>
-            <!-- </form> -->
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <!-- condition -->
-    <div class="indexCondition">
-      <div class="indexConditionOneImg">
-        <img src="./images/recomm.png" alt="recomm">
-      </div>
-      <div class="indexCondition-content">
-        <div class="indexConditionOne">
-          <div class="indexConditionOneContent">
-            <div>
-              <div class="indexConditionOneContentData">
-                <div>
-                  <span>
-                    <strong>02月</strong>
-                  </span>
-                  <span>2018年</span>
-                </div>
-                <div>
-                  <span>
-                    <strong>6</strong>
-                  </span>
-                  <span>日</span>
-                </div>
-                <div>10:20AM-13:30PM</div>
-              </div>
-              <div class="indexConditionOneContentMessage">
-                <div>
-                  <img src="./images/title.png" alt="title">
-                  <span>活動主題：</span>
-                  <span>孕媽咪產檢Q/A&nbsp;&nbsp;黃金培育營養學&nbsp;&nbsp;輕鬆了解臍帶血</span>
-                </div>
-                <div>
-                  <img src="./images/zhujiangren.png" alt="title">
-                  <span>主講講師：</span>
-                  <span>杏芳婦產科督導-蔡老師&nbsp;&nbsp;雅培專業講師&nbsp;&nbsp;聖寶專業講師</span>
-                </div>
-                <div>
-                  <img src="./images/position.png" alt="title">
-                  <span>活動地點：</span>
-                  <span>林口福榮飯店&nbsp;桃園市新山區文二路一街78號</span>
-                </div>
-                <div>
-                  <img src="./images/phone.png" alt="title">
-                  <span>報名專線：</span>
-                  <span style="font-weight: 900">0800-008-800</span>
-                </div>
-                <div>
-                  <img src="./images/time.png" alt="title">
-                  <span>活動倒計時：</span>
-                  <span class="article-time-line"></span>
-                  <span class="article-time">1</span>
-                  <span class="article-time">6</span>天
-                </div>
-              </div>
-            </div>
-            <div class="indexButtonSubmit">
-              <button>立即报名</button>
-            </div>
-          </div>
+          <p>1、孕媽咪產檢Q/A</p>
+          <p>2、黃金培育營養學</p>
+          <p>3、輕鬆了解臍帶血</p>
         </div>
       </div>
-    </div>
-    
-    <div class="indexConditionOneImg">
-      <img src="./images/recomm.png" alt="recomm">
-    </div>
-    <div class="indexCondition-contentTwo">
-      <div class="indexConditionOne">
-        <div class="indexConditionOneContent">
-          <div>
-            <div class="indexConditionOneContentData">
-              <div>
-                <span>
-                  <strong>02月</strong>
-                </span>
-                <span>2018年</span>
-              </div>
-              <div>
-                <span>
-                  <strong>12</strong>
-                </span>
-                <span>日</span>
-              </div>
-              <div>10:20AM-13:30PM</div>
-            </div>
-            <div class="indexConditionOneContentMessage">
-              <div>
-                <img src="./images/title.png" alt="title">
-                <span>活動主題：</span>
-                <span>孕媽咪產檢Q/A&nbsp;&nbsp;黃金培育營養學&nbsp;&nbsp;輕鬆了解臍帶血</span>
-              </div>
-              <div>
-                <img src="./images/zhujiangren.png" alt="title">
-                <span>主講講師：</span>
-                <span>杏芳婦產科督導-蔡老師&nbsp;&nbsp;雅培專業講師&nbsp;&nbsp;聖寶專業講師</span>
-              </div>
-              <div>
-                <img src="./images/position.png" alt="title">
-                <span>活動地點：</span>
-                <span>林口福榮飯店&nbsp;桃園市新山區文二路一街78號</span>
-              </div>
-              <div>
-                <img src="./images/phone.png" alt="title">
-                <span>報名專線：</span>
-                <span style="font-weight: 900">0800-008-800</span>
-              </div>
-              <div>
-                <img src="./images/time.png" alt="title">
-                <span>活動倒計時：</span>
-                <span class="article-time-line"></span>
-                <span class="article-time">0</span>
-                <span class="article-time">8</span>天
-              </div>
-            </div>
-          </div>
-          <div class="indexButtonSubmit">
-            <button>立即报名</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="indexConditionOne indexCondition-contentTwo">
-      <div class="indexConditionOneContent">
+      <div class="recommContent">
+        <div>主講講師</div>
         <div>
-          <div class="indexConditionOneContentData">
-            <div>
-              <span>
-                <strong>02月</strong>
-              </span>
-              <span>2018年</span>
-            </div>
-            <div>
-              <span>
-                <strong>17</strong>
-              </span>
-              <span>日</span>
-            </div>
-            <div>10:20AM-13:30PM</div>
-          </div>
-          <div class="indexConditionOneContentMessage">
-            <div>
-              <img src="./images/title.png" alt="title">
-              <span>活動主題：</span>
-              <span>孕媽咪產檢Q/A&nbsp;&nbsp;黃金培育營養學&nbsp;&nbsp;輕鬆了解臍帶血</span>
-            </div>
-            <div>
-              <img src="./images/zhujiangren.png" alt="title">
-              <span>主講講師：</span>
-              <span>杏芳婦產科督導-蔡老師&nbsp;&nbsp;雅培專業講師&nbsp;&nbsp;聖寶專業講師</span>
-            </div>
-            <div>
-              <img src="./images/position.png" alt="title">
-              <span>活動地點：</span>
-              <span>林口福榮飯店&nbsp;桃園市新山區文二路一街78號</span>
-            </div>
-            <div>
-              <img src="./images/phone.png" alt="title">
-              <span>報名專線：</span>
-              <span style="font-weight: 900">0800-008-800</span>
-            </div>
-            <div>
-              <img src="./images/time.png" alt="title">
-              <span>活動倒計時：</span>
-              <span class="article-time-line"></span>
-              <span class="article-time">1</span>
-              <span class="article-time">5</span>天
-            </div>
-          </div>
-        </div>
-        <div class="indexButtonSubmit">
-          <button>立即报名</button>
+          <p>1、杏芳婦產科督導-蔡老師</p>
+          <p>2、雅培專業講師</p>
+          <p>3、聖寶專業講師</p>
         </div>
       </div>
-    </div>
-
-    <div class="indexConditionOne indexCondition-contentTwo">
-      <div class="indexConditionOneContent">
+      <div class="recommOther">
+        <div>活動時間</div>
         <div>
-          <div class="indexConditionOneContentData">
-            <div>
-              <span>
-                <strong>02月</strong>
-              </span>
-              <span>2018年</span>
-            </div>
-            <div>
-              <span>
-                <strong>18</strong>
-              </span>
-              <span>日</span>
-            </div>
-            <div>10:20AM-13:30PM</div>
-          </div>
-          <div class="indexConditionOneContentMessage">
-            <div>
-              <img src="./images/title.png" alt="title">
-              <span>活動主題：</span>
-              <span>孕媽咪產檢Q/A&nbsp;&nbsp;黃金培育營養學&nbsp;&nbsp;輕鬆了解臍帶血</span>
-            </div>
-            <div>
-              <img src="./images/zhujiangren.png" alt="title">
-              <span>主講講師：</span>
-              <span>杏芳婦產科督導-蔡老師&nbsp;&nbsp;雅培專業講師&nbsp;&nbsp;聖寶專業講師</span>
-            </div>
-            <div>
-              <img src="./images/position.png" alt="title">
-              <span>活動地點：</span>
-              <span>林口福榮飯店&nbsp;桃園市新山區文二路一街78號</span>
-            </div>
-            <div>
-              <img src="./images/phone.png" alt="title">
-              <span>報名專線：</span>
-              <span style="font-weight: 900">0800-008-800</span>
-            </div>
-            <div>
-              <img src="./images/time.png" alt="title">
-              <span>活動倒計時：</span>
-              <span class="article-time-line"></span>
-              <span class="article-time">1</span>
-              <span class="article-time">6</span>天
-            </div>
-          </div>
+          2018-02-3&nbsp;10 : 00AM-12 : 30PM
         </div>
-        <div class="indexButtonSubmit">
-          <button>立即报名</button>
+      </div>
+      <div class="recommOther2">
+        <div>活動地點</div>
+        <div>
+          林口福榮飯店&nbsp;桃園市新山區文二路一街78號
         </div>
+      </div>
+      <div class="recommButton">
+        <button>立即报名</button>
       </div>
     </div>
 
-    <div class="indexConditionOne indexCondition-contentTwo attention">
+    <div class="recomm">
+      <!-- <div>
+          <img  src="./images/recomm.png" >
+        </div> -->
+      <div class="recommContent">
+        <div>活動主題</div>
+        <div>
+          <p>1、孕媽咪產檢Q/A</p>
+          <p>2、黃金培育營養學</p>
+          <p>3、輕鬆了解臍帶血</p>
+        </div>
+      </div>
+      <div class="recommContent">
+        <div>主講講師</div>
+        <div>
+          <p>1、杏芳婦產科督導-蔡老師</p>
+          <p>2、雅培專業講師</p>
+          <p>3、聖寶專業講師</p>
+        </div>
+      </div>
+      <div class="recommOther">
+        <div>活動時間</div>
+        <div>
+          2018-02-3&nbsp;10 : 00AM-12 : 30PM
+        </div>
+      </div>
+      <div class="recommOther2">
+        <div>活動地點</div>
+        <div>
+          林口福榮飯店&nbsp;桃園市新山區文二路一街78號
+        </div>
+      </div>
+      <div class="recommButton">
+        <button>立即报名</button>
+      </div>
+    </div>
+
+    <div class=" attention">
       <div>亞培媽咪學苑注意事項：</div>
       <p>1、席位有限，請先預約報名以免向隅。</p>
       <p>2、預約報名者享有優先兌換贈品權利，座位保留至開課前15分鐘，請準時入場。</p>
@@ -400,19 +224,9 @@
       <p>5、活動當天若有停車需求，請依該場地停車辦法自費繳費。</p>
       <p>* 以上若有造成不便之處敬請諒解。</p>
     </div>
-
-
-  
-
-  <!-- 底部版权 -->
-    <img class="buttom-img" src="./images/footer_bg.png" alt="footer_bg.png" />
-    <div class="copyright">
-      <div class="copyright-text">
-        <p>使用條款 | 隱私權保護 | 聯絡我們 </p>
-        <p>Copyright&nbsp;&copy;&nbsp;2018&nbsp;Abbott</p>
-      </div>
-    </div>
   </div>
+  <!-- 底部版权 -->
+
 
   <!-- Tab panes -->
 

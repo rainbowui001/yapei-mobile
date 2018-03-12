@@ -1,5 +1,5 @@
 $(function () {
-    $(".tab>button").click(function () {
+    $(".tabButton").click(function () {
         $(this).siblings().removeClass("showButton");
         $(this).addClass("showButton");
         var index = $(this).index();
