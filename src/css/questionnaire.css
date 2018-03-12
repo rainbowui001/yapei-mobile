@@ -161,7 +161,7 @@ body {
         width: 25px;
         height: 25px;
         display: inline-block;
-        border-radius: 0.125rem;
+        border-radius: 2px;
         border: 1px solid #c9c9c9;
         background: #efefef;
     }
@@ -172,9 +172,9 @@ body {
         font-family: 'FontAwesome';
         content: '\F00C';
         top: 55%;
-        left: 1rem;
-        margin-top: -0.5rem;
-        font-size: 0.938rem;
+        left: 16px;
+        margin-top: -8px;
+        font-size: 15px;
         line-height: 1;
     }
     .checkbox-custom label {/*文字*/
@@ -192,13 +192,13 @@ body {
     font-size: 10px;
 }
 .questionnaire-survey-checkbox-form div:first-child{
-    border-top-left-radius: 0.438rem;
-    border-top-right-radius: 0.438rem;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 .questionnaire-survey-checkbox-form div:last-child{
     border-bottom: 1px solid #c9c9c9;
-    border-bottom-left-radius: 0.438rem;
-    border-bottom-right-radius: 0.438rem;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
 }
 .questionnaire-survey-checkbox-form > div{
     border: 1px solid #c9c9c9;
@@ -211,19 +211,19 @@ body {
     display: inline;
 }
 .questionnaire-survey-radio-form{
-    margin-left: 1.25rem;
+    margin-left: 20px;
 }
 .questionnaire-survey-radio-form > .radio{
-    margin-right: 1.125rem;
+    margin-right: 18px;
 }
 .questionnaire-survey-radio-form > .radio:nth-child(6){
-    margin-right: 1.4rem;
+    margin-right: 22.5px;
 }
 .questionnaire-survey-radio-form > .radio > label{
     color: #000;
 }
 .questionnaire-survey-radio-form > .radio > label > input{
-    margin-right: 0.5rem;
+    margin-right: 8px;
 }
 
 /*4*/
@@ -247,7 +247,7 @@ body {
 /*6*/
 .questionnaire-survey-textarea-form textarea{
     border: 1px solid #c9c9c9;
-    border-radius: 0.438rem;
+    border-radius: 7px;
     resize:none
 }
 
@@ -260,7 +260,7 @@ body {
 }
 .questionnaire-survey-btn-group button{
     margin-right:20px;
-    font-size: 0.875rem;
+    font-size: 14px;
 }
 .btn-gray,.btn-orange{
     width: 120px;
@@ -282,46 +282,53 @@ body {
 /*底部版权*/
 .buttom-img{
     position: absolute;
-    bottom: 6rem;
+    bottom: 96px;
     width: 100%;
 }
 .copyright{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 6rem;
+    height: 96px;
     background-color: #6d1c7e;
     display: block;
-    padding-top: 1.5rem;
+    padding-top: 24px;
 }
 .copyright-text{
     position: relative;
-    max-width: 30rem;
+    max-width: 480px;
     margin: 0 auto;
 }
 .copyright p{
     display: block;
     text-align: center;
-    font-size: 0.75rem;
     color: #bbb;
     padding-bottom: 0;
     text-transform: uppercase;
 }
-.copyright p:nth-child(2){
-    font-size: 0.75rem;
+.copyright-text > p:first-child{
+    font-size: 12px;
 }
-.questionnaire-survey-question8{
+.copyright-text > p:nth-child(2){
+    font-size: 12px;
+    -webkit-transform: scale(0.8); 
+    transform: scale(0.8); 
     position: relative;
-    z-index: 4;
+    left: -15px;
+    margin-bottom: 0;
 }
-.questionnaire-survey-btn-group{
+.copyright-text > p:nth-child(3){
+    font-size: 12px;
+    -webkit-transform: scale(0.8); 
+    transform: scale(0.8); 
+    margin-bottom: 0;
     position: relative;
-    z-index: 4;
+    top: -3px;
 }
+.copyright-text > img{
+    position: absolute;
+    right: 27px;
+    bottom: 4px;
+    width: 15%;
 
-
-
-       
-        
-
-        
+}
