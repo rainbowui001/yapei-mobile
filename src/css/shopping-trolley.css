@@ -166,7 +166,6 @@ body {
 .shopping-trolley-container_p{
     position: relative;
     background-color: #fff;
-    height: 110px;
     width: 100%;
     border-bottom: 1px solid #c9c9c9;
     overflow: hidden;
@@ -217,7 +216,7 @@ body {
     position: absolute;
     text-align: center;
     right: 15px;
-    top: 70px;
+    bottom: 10px;
 }
 .shopping-trolley-container_count > div{
     float: left;
