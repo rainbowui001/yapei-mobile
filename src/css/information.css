@@ -1,0 +1,222 @@
+/*顶部返回*/
+.head_return{
+    width: 100%;
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    }
+    .head_return > img{
+    position: absolute;
+    width: 3%;
+    left: 15px;
+    top: 12px;
+    }
+    .head_return > a > p{
+    color: #222;
+    font-size: 17px;
+ }
+ /* 头部 */
+ .head{
+    position: relative;
+}
+.head > img{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.headT{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background: #fff;
+    opacity: 0.2;
+}
+.headLink{
+    position: relative;
+    max-width: 87%;
+    margin: 0 auto;
+}
+    
+.headLink > div{
+    position: absolute;
+    width: 100%;
+    top: 10px;
+}
+.headLink > div > a:first-child{
+    float: left;
+}
+.headLink > div > a:nth-child(2),
+.headLink > div > a:nth-child(3){
+    float: right;
+}
+.headLink > div > a:nth-child(2) > img,
+.headLink > div > a:nth-child(3) > img{
+    float: right;
+}
+.headLink > div> a > img{
+    width: 60%;
+}
+
+
+/*wizard*/
+.bwizard{
+    position:relative;
+    max-width: 100%;
+    height: 42px;
+    background: #AF65BB;
+    }
+    .bwizard-steps{
+    margin:0;
+    padding:0;
+    display:inline-block;
+    background:#AF65BB;
+    }
+    .bwizard-steps > div{
+    display:inline;
+    position:relative;
+    top: 12px;
+    line-height:18px;
+    padding:12px 25px 10px 25px;
+    background:#AF65BB;
+    zoom:1;
+    }
+    .bwizard-steps > div:nth-child(2),
+    .bwizard-steps > div:nth-child(3){
+    padding:12px 25px 11px 35px;
+    }
+    
+    .bwizard-steps > div:first-child:before,
+    .bwizard-steps > div:last-child:after{
+    border:0
+    }
+    .bwizard-steps > div:before{
+    position:absolute;
+    left:0;
+    top:0;
+    height:0;
+    width:0;
+    border-bottom:20px inset transparent;
+    border-left:15px solid #fff;
+    border-top:20px inset transparent;
+    content:""
+    }
+    .bwizard-steps > div:after{
+    position:absolute;
+    right:-15px;
+    top:0;
+    height:0;
+    width:0;
+    border-bottom:20px inset transparent;
+    border-left:15px solid #AF65BB;
+    border-top:20px inset transparent;
+    content:"";
+    }
+    .bwizard-steps .active{
+    color:#fff;
+    background: #63337D;
+    height: 42px;
+    }
+    .bwizard-steps .active:after{
+    border-left-color: #63337D;
+    }
+    .bwizard-steps a{
+    color:#fff;
+    }
+    .bwizard-steps .active a{
+    color:#fff;
+    }
+    .bwizard-steps a:hover,
+    .bwizard-steps a:focus,
+    {
+    text-decoration:none;
+    }
+
+    .detials{
+        height:70px ;
+        color: rgb(65, 60, 60);
+        width: 92%;
+        margin: 0 auto;
+        font-size: 16px;
+        padding:7px 5px;
+    }
+    .detials>span{
+        display:inline-block; 
+    }
+    .product{
+        line-height: 20px;
+        width:55%;
+        text-align: center;
+    }
+    .number{
+        line-height: 20px;
+        width:20%;
+        text-align: center;
+    }
+    .total{
+        line-height: 20px;
+        width:20%;
+        text-align: center;
+    }
+    .detials>.product{
+        line-height: 30px;
+        text-align: left;
+    }
+    .money{
+        height: 50px;
+        line-height: 50px;
+        width: 100%;
+        margin: 0 auto;
+        font-size: 16px;
+        border-top: 1px solid #eee;
+        text-align: end;
+        margin-top: 10px;
+        padding-right: 20px;
+    }
+    
+    .money>:nth-child(1){
+        color: rgb(83, 80, 80);
+    }
+    .money>:nth-child(2){
+        color: #f49300;
+    }  
+    .title{
+        width: 92%;
+        margin: 0 auto;
+        font-size: 14px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .title>span{
+        display:inline-block;
+        color:#63337d;
+    }
+    .bg{
+        width: 100%;
+        height: 15px;
+        background-color: #eee;
+    }
+    .detialConditionDataInput>div{
+        width: 65%;
+        border-radius: 3px;
+        height: 30px;
+        line-height: 30px; 
+        padding: 0 5px;    
+        color:#cdcdcd; 
+        display:inline-block;
+    }
+    .sign-in-container-p1{
+        width: 94%;
+        margin: 10px  auto;
+        }
+        .btn-lg-purpel{
+        width: 100%;
+        color: #fff;
+        background-color: #A666B1;
+        height: 45px;
+        border-radius: 7px;
+        margin: 5px 0 15px 0;
+        font-size: 18px;
+        font-weight: lighter;
+     }
