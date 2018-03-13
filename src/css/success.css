@@ -1,0 +1,40 @@
+.successBG
+{
+    width:84%;
+    margin: 0 auto;
+    text-align: center;  
+}
+.successBG>img{
+    text-align: center;
+    width: 100%;
+    padding:30px 0;
+}
+.successBG>span{
+    font-size: 15px;
+}
+
+.sign-in-container-p1{
+    width: 92%;
+    margin: 15px auto 30px auto;
+    }
+.btn-lg-purpel{
+    width: 100%;
+    color: #fff;
+    background-color: #A666B1;
+    height: 45px;
+    border-radius: 7px;
+    margin: 5px 0 15px 0;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.successFont>:nth-last-child(1){
+    margin-bottom:5px;
+}
+.successFont{
+    font-size: 13px;
+    color: rgba(43, 41, 43, 0.667);
+}
+.successFont{
+    width: 92%;
+    margin: 15px auto 30px auto;
+}
