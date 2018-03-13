@@ -7,7 +7,7 @@ body {
     margin:0;
     padding: 0;
     font-family: Microsoft YaHei; 
-    background-color: #efc6ef;
+    background-color: #F3F4F5;
     background-size: contain;
     position: relative;
 }
@@ -94,7 +94,6 @@ body {
 .bwizard-steps > div{
     display:inline; 
     position:relative;
-    /* margin-right:5px; */
     top: 12px;
     line-height:18px;
     padding:12px 25px 10px 25px;
@@ -158,3 +157,166 @@ body {
 .bwizard-steps.clickable li:hover:not(.active):after{
     border-left-color:#ccc
 }     */
+
+/*内容*/
+.shopping-trolley-container{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.shopping-trolley-container_p{
+    position: relative;
+    background-color: #fff;
+    height: 110px;
+    width: 100%;
+    border-bottom: 1px solid #c9c9c9;
+    overflow: hidden;
+}
+.shopping-trolley-container_p_left{
+    width: 30%;
+    float: left;
+}
+.shopping-trolley-container_p_left > .radio-custom{
+    position: absolute;
+}
+.shopping-trolley-container_p_left > img{
+    width: 60%;
+    position: relative;
+    left: 25%;
+    top: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.shopping-trolley-container_p_right > h5,
+.shopping-trolley-container_p_right > h4
+{
+    margin: 0;
+    padding: 15px 0 7px 0;
+    font-size: 14px;
+    color: #777;
+    font-weight: normal;
+}
+.shopping-trolley-container_p_right > h5 > em{
+    color: #222;
+    font-style: normal;
+}
+.shopping-trolley-container_p_right > h4 > em{
+    margin: 0;
+    color: #F83500;
+    font-size: 14px;
+    font-style: normal;
+}
+.shopping-trolley-container_p_right > p:first-of-type{
+    font-size: 12px;
+    color: #aaa;
+}
+.shopping-trolley-container_p_right > p:nth-of-type(2){
+    color: #63337D;
+    margin-top: 20px;
+}
+.shopping-trolley-container_count{
+    position: absolute;
+    text-align: center;
+    right: 15px;
+    top: 70px;
+}
+.shopping-trolley-container_count > div{
+    float: left;
+    padding-top: 3px;
+    border: 1px solid #c9c9c9;
+    height: 27px;
+}
+.shopping-trolley-container_count > div:first-child{
+    width: 27px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #c9c9c9;
+}
+.shopping-trolley-container_count > div:nth-child(2){
+    width: 35px;
+    border-left: none;
+    border-right: none;
+}
+.shopping-trolley-container_count > div:nth-child(3){
+    width: 27px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/*radio*/
+    .radio-custom {
+        position: relative;
+    } 
+    .radio-custom input[type="radio"] {
+        opacity: 0;
+        cursor: pointer;
+        /* z-index: 2; */
+    }
+    .radio-custom label:before {
+        content: '';
+        position: absolute;
+        top: 150%;
+        left: 7px;
+        margin-top: -5%;
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        border-radius: 20px;
+        border: 1px solid #63337D;
+        background: #fff;
+    }
+    .radio-custom input[type="radio"]:checked +label:after {
+        border:1px solid #c9c9c9;
+    }
+    .radio-custom input[type="radio"]:checked +label:after {
+        position: absolute;
+        display: inline-block;
+        font-family: 'FontAwesome';
+        content: '\F00C';
+        top: 156%;
+        left: 9px;
+        font-size: 15px;
+        line-height: 1;
+        border: 0;
+        color:  #63337D;
+    }
+
+/*底部计算*/
+.shopping-trolley-bottom{
+    background-color: #fff;
+    height: 40px;
+    width: 100%;
+}
+.shopping-trolley-bottom_left{
+    width: 30%;
+    float: left;
+}
+.shopping-trolley-bottom_right{
+    position: relative;
+    width: 70%;
+    float: left;
+}
+.shopping-trolley-bottom_right > div.shopping-trolley-bottom_button{
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    margin-top: -15px;
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    background-color: #63337D;
+}
+.shopping-trolley-bottom .radio-custom label{
+    padding-left: 35px;
+}
+.shopping-trolley-bottom .radio-custom label:before {
+    top: 40%
+}
+.shopping-trolley-bottom_right > p{
+    margin: 0;
+    line-height: 40px;
+    font-size: 16px;
+    color: #63337D;
+}
