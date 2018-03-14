@@ -57,8 +57,12 @@
         padding: 0 5px;    
         color:#cdcdcd; 
     }
-    .detialConditionDataInput>input[placeholder]{
+    .detialConditionDataInput>input[placeholder],
+    .detialConditionDataInputHP>:nth-child(2)>div>input[placeholder],
+    .detialConditionDataInput>div>input[placeholder]
+    {
          color: #cdcdcd;
+         font-size: 12px;
     }
     .detialConditionDataInputHP>span{
         display:inline-block;
@@ -70,29 +74,34 @@
         width: 65%;
         height: 30px;
         color:#cdcdcd; 
-
+    }
+    .detialConditionDataInputHP>:nth-child(2)>div{
+        display: inline-block;
+        position: relative;
     }
     .detialConditionDataInputHP>:nth-child(2)>:nth-child(1){
-        width: 49%;
+        width: 55%;
+        margin-right: 2px;
+    }
+    .detialConditionDataInputHP>:nth-child(2)>:nth-child(2){
+        width: 42%;
+    }
+    .detialConditionDataInputHP>:nth-child(2)>div>input{
         border: 1px solid #eeeeee;
         border-radius: 3px;
         height: 30px;
         line-height: 30px; 
         padding: 0 5px ;
         color:#cdcdcd; 
-
+        width: 100%;
     }
-    .detialConditionDataInputHP>:nth-child(2)>:nth-child(2){
-        margin-left: 10px;
-        width: 44%;
-        border: 1px solid #eeeeee;
-        border-radius: 3px;
-        height: 30px;
-        line-height: 30px; 
-        padding: 0 5px  ;
-        color:#cdcdcd; 
-
+    .detialConditionDataInputHP>:nth-child(2)>div>span{
+        position: absolute;
+        right:2px;
+        font-size: 10px;
+        top:9px;
     }
+  
     .detailsItem{
         overflow: hidden;
         margin: 20px 0px;
@@ -139,17 +148,21 @@
         width: 65%;
     }
     .detialConditionDataInput>div>input{
+        padding: 0 5px;
         border: 1px solid #eee;
         border-radius: 3px;
         width:100%;
+        height: 30px;
+        line-height: 30px;
     }
     .detialConditionDataInput>div>span{
+        color:#cdcdcd; 
         position: absolute;
         right:2px;
         font-size: 10px;
         top:9px;
     }
-.detialConditionDataInput>div>div{
-    display: inline-block;
-}
+    .detialConditionDataInput>div>div{
+        display: inline-block;
+    }
          
