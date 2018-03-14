@@ -1,0 +1,34 @@
+/*客户化*/
+.detialConditionDataInputHP>:nth-child(2)>:nth-child(1){
+    width: 100%;
+}
+#trigger2{
+    width: 49%;
+    margin-right: 0;
+}
+#trigger3{
+    width: 48%;
+}
+
+/*日期控件*/
+.m_datetime{
+    width: 65%!important;
+}
+.m_datetime > button{
+    border: 0;
+}
+.m_datetime > button:after{
+    margin-top: -9px;
+}
+.dtPicker .select{
+    width: auto;
+}
+/*下拉控件*/
+.m_select{
+    padding: 0 5px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    height: 30px!important;
+}
+    
+         
