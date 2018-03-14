@@ -109,35 +109,35 @@
                 <span>*</span>
             </span>
             <div class="iDate date">
-                    <input type="text"  placeholder="yyyy-mm-dd" >
-                    <button type="button" class="addOn"></button>
-               </div>     
-               </div>
+                <input type="text" placeholder="yyyy-mm-dd">
+                <button type="button" class="addOn"></button>
+            </div>
+        </div>
         <div class="detialConditionDataInputHP">
             <span>
                 <span>生產醫院</span>
                 <span>*</span>
             </span>
             <span>
-                <select type="text" name="">
-                    <option value="volvo">請選擇縣市</option>
-                    <option value="saab">上海</option>
-                </select>
-                <select type="text" name="">
-                    <option value="volvo">請選擇區</option>
-                    <option value="saab">上海</option>
-                </select>
+                <div>
+                    <input type="text" name="lname" />
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                </div>
+                <div>
+                    <input type="text" name="lname" />
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                </div>
             </span>
         </div>
-        <div class="detialConditionDataInput">
+        <div class="detialConditionDataInput ">
             <span>
                 <span>&nbsp;</span>
                 <span>&nbsp;</span>
             </span>
-            <select>
-                <option value="volvo">請輸入生產醫院</option>
-                <option value="saab">请选择</option>
-            </select>
+            <div class="informationInput">
+                <input type="text" name="lname" placeholder="請輸入生產醫院" />
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </div>
         </div>
         <div class="detialConditionDataInput">
             <span>
@@ -159,14 +159,14 @@
                 <span>*</span>
             </span>
             <span>
-                <select type="text" name="">
-                    <option value="volvo">請選擇縣市</option>
-                    <option value="saab">上海</option>
-                </select>
-                <select type="text" name="">
-                    <option value="volvo">請選擇區</option>
-                    <option value="saab">上海</option>
-                </select>
+                <div>
+                    <input type="text" name="lname" placeholder="請選擇縣市" />
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                </div>
+                <div>
+                    <input type="text" name="lname" placeholder="請選擇區" />
+                    <span class="glyphicon glyphicon-chevron-down"></span>
+                </div>
             </span>
         </div>
         <div class="detialConditionDataInput">
@@ -183,13 +183,13 @@
             </span>
             <input type="text" name="lname" placeholder="张三" />
         </div>
-        <div class="detialConditionDataInput">
+        <div class="detialConditionDataInput informationConditionDataInput">
             <span>
                 <span>&nbsp;</span>
                 <span>&nbsp;</span>
             </span>
             <div>
-            <input type="checkbox" name="lname" /> 同客户姓名</div>
+                <input type="checkbox" name="lname" /> 同客户姓名</div>
         </div>
 
         <div class="detialConditionDataInput">
@@ -213,22 +213,24 @@
             </span>
             <input type="text" name="lname" placeholder="14-18時（最晚配送時段）" />
         </div>
-        <div class="detialConditionDataInput">
+        <div class="detialConditionDataInput informationConditionDataInput">
             <span>
                 <span>收款方式</span>
                 <span>*</span>
             </span>
-            <div><input type="radio" name="lname" /> 貨到付款</div>
+            <div>
+                <input type="radio" name="lname" /> 貨到付款</div>
         </div>
-        <div class="detialConditionDataInput">
+        <div class="detialConditionDataInput ">
             <span>
                 <span>發票類型</span>
                 <span>&nbsp;</span>
             </span>
-            <select>
-                <option value="volvo">二聯式</option>
-                <option value="saab">请选择</option>
-            </select>
+            <div class="informationInput">
+                <input type="text" name="lname" placeholder="二聯式" />
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </div>
+
         </div>
         <div class="detialConditionDataInput">
             <span>
@@ -252,20 +254,20 @@
             <input type="text" name="lname" placeholder="請輸入統壹編號" />
         </div>
     </div>
-        <div class="bg"></div>
+    <div class="bg"></div>
 
-        <div class="detailsItem">
-            <div>
-                <input type="checkbox" name="lname" />
-            </div>
-            <div>我已閱讀
-                <span data-toggle="modal" data-target="#myModal">並同意亞培媽媽教室線上報名條款與隱私保護方針</span>且同意個人資料收集及使用關關規定。</div>
+    <div class="detailsItem">
+        <div>
+            <input type="checkbox" name="lname" />
         </div>
-        <div class="sign-in-container-p1">
-                <button class="btn-lg-purpel" data-toggle="modal" data-target="#mobile_Modal02">確認提交
-                </button>
-            </div>
-   
+        <div>我已閱讀
+            <span data-toggle="modal" data-target="#myModal">並同意亞培媽媽教室線上報名條款與隱私保護方針</span>且同意個人資料收集及使用關關規定。</div>
+    </div>
+    <div class="sign-in-container-p1">
+        <button class="btn-lg-purpel" data-toggle="modal" data-target="#mobile_Modal02">確認提交
+        </button>
+    </div>
+
     <!-- Modal -->
     <div class="modal fade" id="mobile_Modal02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
@@ -276,13 +278,15 @@
                     </button>
                     <h4 class="modal-title" id="myModalLabel">
                         <img class="buttom-img" src="images/m_confirm.png" alt="" />
-                        <img  src="images/m_icon_ok.png" alt="" />
-                        <p>恭喜您訂購成功</p></h4>
+                        <img src="images/m_icon_ok.png" alt="" />
+                        <p>恭喜您訂購成功</p>
+                    </h4>
                 </div>
                 <div class="modal-body">
                     <p>恭喜您已經完成優惠訂購，活動小組將確認您符合資格後，於15個工作天內配送到您府上。
                         <br>&nbsp;&nbsp;&nbsp;請務必確認您留的寄送地址與電話正確，如因不正確導致無法寄送或拒收退回均不再次寄送。
-                        <br>&nbsp;&nbsp;&nbsp;若有任何疑問，敬請洽詢客服專線 <em>0800-008 828</em>。</p>
+                        <br>&nbsp;&nbsp;&nbsp;若有任何疑問，敬請洽詢客服專線
+                        <em>0800-008 828</em>。</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn-white" data-dismiss="modal">確定</button>
