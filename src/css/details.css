@@ -133,5 +133,23 @@
     .detailsItem>div>span{
         color:#63337d;
     }
-
+    .detialConditionDataInput>div{
+        display: inline-block;
+        position: relative;
+        width: 65%;
+    }
+    .detialConditionDataInput>div>input{
+        border: 1px solid #eee;
+        border-radius: 3px;
+        width:100%;
+    }
+    .detialConditionDataInput>div>span{
+        position: absolute;
+        right:2px;
+        font-size: 10px;
+        top:9px;
+    }
+.detialConditionDataInput>div>div{
+    display: inline-block;
+}
          
