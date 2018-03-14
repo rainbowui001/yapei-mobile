@@ -11,6 +11,7 @@
     <link href="./css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css" />
 
     <link href="./css/details.css" rel="stylesheet" type="text/css" />
+    <link href="./css/mobileSelect.css" rel="stylesheet" type="text/css" />
     <link href="./css/information.css" rel="stylesheet" type="text/css" />
     <link href="./css/login1.css" rel="stylesheet" type="text/css" />
     <link href="./css/login2.css" rel="stylesheet" type="text/css" />
@@ -43,29 +44,29 @@
     <div class="login1Content">
         <!-- button -->
         <div class="complete">
-                <div class="complete-container">
-                    <div class="complete-wizard">
+            <div class="complete-container">
+                <div class="complete-wizard">
+                    <div>
+                        <div>1</div>
                         <div>
-                            <div>1</div>
-                            <div>
-                                <p>會員資料</p>
-                            </div>
+                            <p>會員資料</p>
                         </div>
+                    </div>
+                    <div>
+                        <div>2</div>
                         <div>
-                            <div>2</div>
-                            <div>
-                                <p>寶寶資料</p>
-                            </div>
+                            <p>寶寶資料</p>
                         </div>
+                    </div>
+                    <div>
+                        <div>3</div>
                         <div>
-                            <div>3</div>
-                            <div>
-                                <p>完成註冊</p>
-                            </div>
+                            <p>完成註冊</p>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
         <!-- details -->
         <div class="loginInformation">
@@ -99,28 +100,29 @@
                 </div>
             </div>
             <div class="detialConditionDataInput">
-                <span>
-                    <span>胎次</span>
-                    <span>*</span>
+                <span class="colorFont">
+                    <span>
+                        <span>胎次</span>
+                        <span class="color">*</span>
+                    </span>
                 </span>
-                <div class="informationInput">
-                    <input type="text" name="lname" />
-                    <span class="glyphicon glyphicon-chevron-down"></span>
+                <div class="informationInput select" id="trigger10">
+
                 </div>
             </div>
             <div class="detialConditionDataInputHP">
-                <span>
-                    <span>生產醫院</span>
-                    <span>*</span>
+                <span class="colorFont">
+                    <span>
+                        <span>生產醫院</span>
+                        <span class="color">*</span>
+                    </span>
                 </span>
                 <span>
-                    <div>
-                        <input type="text" name="lname" />
-                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    <div class="informationInput select" id="trigger11">
+
                     </div>
-                    <div>
-                        <input type="text" name="lname" />
-                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    <div class="informationInput select" id="trigger12">
+
                     </div>
                 </span>
             </div>
@@ -156,132 +158,136 @@
 
         <h2 class="babyInformation">寶寶資料一</h3>
 
-        <div class="detialConditionDataInput">
-            <span>
-                <span>寶寶姓名</span>
-                <span>*</span>
-            </span>
-            <div class="informationInput">
-                <input type="text">
-            </div>
-        </div>
-        <div class="detialConditionDataInput">
-            <span>
-                <span>親子關系</span>
-                <span>*</span>
-            </span>
-            <div class="informationInput">
-                <input type="text" name="lname" placeholder="請選擇" />
-                <span class="glyphicon glyphicon-chevron-down"></span>
-            </div>
-        </div>
-        <div class="detialConditionDataInput">
-            <span>
-                <span>寶寶生日</span>
-                <span>*</span>
-            </span>
-            <div class="iDate date">
-                <input type="text" placeholder="yyyy-mm-dd">
-                <button type="button" class="addOn"></button>
-            </div>
-        </div>
-
-        <h2 class="babyInformation">寶寶資料二</h3>
-
-        <div class="detialConditionDataInput">
-            <span>
-                <span>寶寶姓名</span>
-                <span>*</span>
-            </span>
-            <div class="informationInput">
-                <input type="text">
-            </div>
-        </div>
-        <div class="detialConditionDataInput">
-            <span>
-                <span>親子關系</span>
-                <span>*</span>
-            </span>
-            <div class="informationInput">
-                <input type="text" name="lname" placeholder="請選擇" />
-                <span class="glyphicon glyphicon-chevron-down"></span>
-            </div>
-        </div>
-        <div class="detialConditionDataInput">
-            <span>
-                <span>寶寶生日</span>
-                <span>*</span>
-            </span>
-            <div class="iDate date">
-                <input type="text" placeholder="yyyy-mm-dd">
-                <button type="button" class="addOn"></button>
-            </div>
-        </div>
-        <h2 class="babyInformation">寶寶資料三</h3>
-        <div class="detialConditionDataInput">
-            <span>
-                <span>寶寶姓名</span>
-                <span>*</span>
-            </span>
-            <div>
-                <input type="text">
-            </div>
-        </div>
-        <div class="detialConditionDataInput">
-            <span>
-                <span>親子關系</span>
-                <span>*</span>
-            </span>
-            <div class="informationInput">
-                <input type="text" name="lname" placeholder="請選擇" />
-                <span class="glyphicon glyphicon-chevron-down"></span>
-            </div>
-        </div>
-        <div class="detialConditionDataInput">
-            <span>
-                <span>寶寶生日</span>
-                <span>*</span>
-            </span>
-            <div class="iDate date">
-                <input type="text" placeholder="yyyy-mm-dd">
-                <button type="button" class="addOn"></button>
-            </div>
-        </div>
-        <div class="detialConditionDataInputHP">
-            <span>
-                <span>驗證碼</span>
-                <span>&nbsp</span>
-            </span>
-            <span>
+            <div class="detialConditionDataInput">
+                <span>
+                    <span>寶寶姓名</span>
+                    <span>*</span>
+                </span>
                 <div class="informationInput">
-                    <input type="text" name="lname" placeholder="驗證碼" />
-                    
+                    <input type="text">
                 </div>
-                <div>
-                  
-                </div>
-            </span>
-        </div>
-
-        <div class="sign-in-container-p1">
-            <button class="btn-lg-purpel" data-toggle="modal" data-target="#mobile_Modal02">送出
-            </button>
-        </div>
-        <img class="buttom-img" src="images/m_footer_bg.png" alt="" />
-        <div class="copyright">
-            <div class="copyright-text">
-                <p>亞培育兒專線：0800-008-828 | 使用條款 | 隱私權保護</p>
-                <p>Copyright&nbsp;&copy;&nbsp;2018&nbsp;Abbott&nbsp;Laboratories&nbsp;Services&nbsp;Corp.Taiwan</p>
-                <p>Branch, R.O.C. All &nbsp;Rights&nbsp; Reserved.</p>
-                <img src="./images/logo_white.png" alt="" />
             </div>
-        </div>
+            <div class="detialConditionDataInput">
+                <span class="colorFont">
+                    <span>
+                        <span>親子關系</span>
+                        <span class="color">*</span>
+                    </span>
+                </span>
 
-        <script src="./js/jquery.min.js"></script>
-        <script src="./js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="./js/moment.js"></script>
-        <script type="text/javascript" src="./js/bootstrap-datetimepicker.js"></script>
-        <script src="./js/index.js"></script>
+                <div class="informationInput select" id="trigger13">
+
+                </div>
+            </div>
+            <div class="detialConditionDataInput">
+                <span>
+                    <span>寶寶生日</span>
+                    <span>*</span>
+                </span>
+                <div class="iDate date">
+                    <input type="text" placeholder="yyyy-mm-dd">
+                    <button type="button" class="addOn"></button>
+                </div>
+            </div>
+
+            <h2 class="babyInformation">寶寶資料二</h3>
+
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span>寶寶姓名</span>
+                        <span>*</span>
+                    </span>
+                    <div class="informationInput">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="detialConditionDataInput">
+                    <span class="colorFont">
+                        <span>
+                            <span>親子關系</span>
+                            <span class="color">*</span>
+                        </span>
+                    </span>
+                    <div class="informationInput select" id="trigger14">
+
+                    </div>
+                </div>
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span>寶寶生日</span>
+                        <span>*</span>
+                    </span>
+                    <div class="iDate date">
+                        <input type="text" placeholder="yyyy-mm-dd">
+                        <button type="button" class="addOn"></button>
+                    </div>
+                </div>
+                <h2 class="babyInformation">寶寶資料三</h3>
+                    <div class="detialConditionDataInput">
+                        <span>
+                            <span>寶寶姓名</span>
+                            <span>*</span>
+                        </span>
+                        <div>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="detialConditionDataInput">
+                        <span class="colorFont">
+                            <span>
+                                <span>親子關系</span>
+                                <span class="color">*</span>
+                            </span>
+                        </span>
+                        <div class="informationInput select" id="trigger15">
+
+                        </div>
+                    </div>
+                    <div class="detialConditionDataInput">
+                        <span>
+                            <span>寶寶生日</span>
+                            <span>*</span>
+                        </span>
+                        <div class="iDate date">
+                            <input type="text" placeholder="yyyy-mm-dd">
+                            <button type="button" class="addOn"></button>
+                        </div>
+                    </div>
+                    <div class="detialConditionDataInputHP">
+                        <span >
+                            <span>驗證碼</span>
+                            <span>&nbsp</span>
+                        </span>
+                        <span>
+                            <div class="informationInput">
+                                <input type="text" name="lname" placeholder="驗證碼" />
+
+                            </div>
+                            <div>
+
+                            </div>
+                        </span>
+                    </div>
+
+                    <div class="sign-in-container-p1">
+                        <button class="btn-lg-purpel" data-toggle="modal" data-target="#mobile_Modal02">送出
+                        </button>
+                    </div>
+                    <img class="buttom-img" src="images/m_footer_bg.png" alt="" />
+                    <div class="copyright">
+                        <div class="copyright-text">
+                            <p>亞培育兒專線：0800-008-828 | 使用條款 | 隱私權保護</p>
+                            <p>Copyright&nbsp;&copy;&nbsp;2018&nbsp;Abbott&nbsp;Laboratories&nbsp;Services&nbsp;Corp.Taiwan</p>
+                            <p>Branch, R.O.C. All &nbsp;Rights&nbsp; Reserved.</p>
+                            <img src="./images/logo_white.png" alt="" />
+                        </div>
+                    </div>
+
+                    <script src="./js/jquery.min.js"></script>
+                    <script src="./js/bootstrap.min.js"></script>
+                    <script type="text/javascript" src="./js/moment.js"></script>
+                    <script type="text/javascript" src="./js/bootstrap-datetimepicker.js"></script>
+                    <script src="./js/index.js"></script>
 
 </body>
 

@@ -11,6 +11,7 @@
     <link href="./css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css" />
 
     <link href="./css/details.css" rel="stylesheet" type="text/css" />
+    <link href="./css/mobileSelect.css" rel="stylesheet" type="text/css" />
     <link href="./css/information.css" rel="stylesheet" type="text/css" />
     <link href="./css/login1.css" rel="stylesheet" type="text/css" />
 
@@ -117,10 +118,8 @@
                     <span>姓名</span>
                     <span>*</span>
                 </span>
-                <div>
-                    <input type="text" placeholder="yyyy-mm-dd">
-                    <button type="button" class="addOn"></button>
-                </div>
+                <input type="text" name="lname" placeholder="张三" />
+
             </div>
             <div class="detialConditionDataInput informationConditionDataInput">
                 <span>
@@ -137,20 +136,16 @@
                     <span>密碼</span>
                     <span>*</span>
                 </span>
-                <div>
-                    <input type="text" placeholder="XXXX">
-                    <button type="button" class="addOn"></button>
-                </div>
+                <input type="text" name="lname" placeholder="XXX" />
+
             </div>
             <div class="detialConditionDataInput">
                 <span>
                     <span>確認密碼</span>
                     <span>*</span>
                 </span>
-                <div>
-                    <input type="text" placeholder="XXX">
-                    <button type="button" class="addOn"></button>
-                </div>
+                <input type="text" placeholder="XXX">
+
             </div>
             <div class="detialConditionDataInput informationConditionDataInput">
                 <span>
@@ -173,23 +168,27 @@
                 </div>
             </div>
             <div class="detialConditionDataInput ">
-                <span>
-                    <span>學歷</span>
-                    <span>&nbsp;</span>
+                <span class="colorFont">
+                    <span>
+                        <span>學歷</span>
+                        <span class="color">*</span>
+                    </span>
                 </span>
-                <div class="informationInput">
-                    <input type="text" name="lname" placeholder="大學" />
-                    <span class="glyphicon glyphicon-chevron-down"></span>
+
+                <div class="informationInput select" id="trigger5">
+
                 </div>
             </div>
             <div class="detialConditionDataInput ">
-                <span>
-                    <span>職業</span>
-                    <span>&nbsp;</span>
+                <span class="colorFont">
+                    <span>
+                        <span>職業</span>
+                        <span class="color">*</span>
+                    </span>
                 </span>
-                <div class="informationInput">
-                    <input type="text" name="lname" placeholder="其他" />
-                    <span class="glyphicon glyphicon-chevron-down"></span>
+
+                <div class="informationInput select" id="trigger6">
+
                 </div>
             </div>
             <div class="detialConditionDataInput">
@@ -214,18 +213,19 @@
                 <input type="text" name="lname" placeholder="區碼+電話+分機" />
             </div>
             <div class="detialConditionDataInputHP">
-                <span>
-                    <span>居住地址</span>
-                    <span>&nbsp</span>
+                <span class="colorFont">
+                    <span>
+                        <span>居住地址</span>
+                        <span class="color">&nbsp;</span>
+                    </span>
                 </span>
+
                 <span>
-                    <div>
-                        <input type="text" name="lname" placeholder="請選擇縣市" />
-                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    <div class="informationInput select" id="trigger7">
+
                     </div>
-                    <div>
-                        <input type="text" name="lname" placeholder="請選擇區" />
-                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    <div class="informationInput select" id="trigger8">
+
                     </div>
                 </span>
             </div>
@@ -245,13 +245,15 @@
             </div>
 
             <div class="detialConditionDataInput ">
-                <span>
-                    <span>方便聯絡時間</span>
-                    <span>&nbsp;</span>
+                <span class="colorFont">
+                    <span>
+                        <span>方便聯絡時間</span>
+                        <span class="color">&nbsp;</span>
+                    </span>
                 </span>
-                <div class="informationInput">
-                    <input type="text" name="lname" placeholder="二聯式" />
-                    <span class="glyphicon glyphicon-chevron-down"></span>
+
+                <div class="informationInput select" id="trigger9">
+
                 </div>
             </div>
         </div>
