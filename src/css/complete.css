@@ -2,20 +2,20 @@ html{
     font-size: 16px;
     overflow-x: hidden;
     outline: none;
+    overflow-y: hidden;
 }
 body {
     margin:0;
     padding: 0;
     font-family: Microsoft YaHei; 
     /* background-color: #efc6ef; */
-    background: url(../images/body_bg.png);
-    background-size: contain;
-    position: relative;
+    background: url(../images/body_bg.png)repeat-x  0 0 ;
 }
 .row{
     margin:0;
     padding: 0;
 }
+
 .col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,
 .col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,
 .col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,
@@ -64,6 +64,7 @@ body {
 
 /*完成*/
 .complete-container{
+    position: relative;
     max-width: 94%;
     margin: 0 auto;
     background-color: #fff;
@@ -73,20 +74,78 @@ body {
     text-align: center;
 }
 
-.complete-wizard > div{
-    width: 30%;
-    float: left;
+.complete-wizard{
+    width: 100%;
+    overflow: auto;
+    padding-top: 30px;
+    padding-bottom: 75px;
 }
 
+.complete-wizard > div{
+    width: 33%;
+    float: left;
+}
+.complete-wizard > div > div:first-child{
+    height: 27px;
+    width: 27px;
+    background-color: #6d1c7e;
+    border-radius: 27px;
+    color: #fff;
+    line-height: 27px;
+    margin: 0 auto;
+}
+.complete-wizard > div > div:first-child::after{
+    content: "";
+    height: 3px;
+    width: 30%;
+    background-color: #6d1c7e;
+    display: block;
+    position: absolute;
+    top: 42px;
+    margin: 0 20px;
+}
+.complete-wizard > div:nth-child(3) > div:first-child::after{
+    display: none;
+}
+.complete-wizard > div > div:nth-child(2){
+    padding-top: 5px;
+}
+
+
+
+.complete-title{
+    height: 80px;
+    line-height: 80px;
+}
+.complete-title > img{
+    position: absolute;
+    width: 15%;
+    top: 220px;
+    left: 45px;
+    margin-top: -28px;
+    padding-left: 20px;
+} 
+.complete-title > p{
+    font-size: 21px;
+    font-weight: 320;
+    margin:0;
+    padding-left: 30px;
+}
+
+
+
 /*按钮*/
+.complete-button{
+    padding-bottom: 100%;
+}
 .btn-md-orange{
-    width: 50%;
+    width: 35%;
     color: #fff;
     background-color: #F49401;
-    height: 45px;
+    height: 40px;
     border-radius: 7px;
     margin: 5px 0 15px 0;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: lighter;
 }
 
