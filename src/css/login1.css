@@ -114,3 +114,66 @@ body{
     
     }
 
+/* 按钮 */
+.complete-container{
+    position: relative;
+    max-width: 94%;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 4px;
+    color: #6d1c7e;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.complete-wizard{
+    width: 100%;
+    overflow: auto;
+    padding-top: 30px;
+}
+
+.complete-wizard > div{
+    width: 33%;
+    float: left;
+}
+.complete-wizard > div > div:first-child{
+    height: 27px;
+    width: 27px;
+    background-color: #6d1c7e;
+    border-radius: 27px;
+    color: #fff;
+    line-height: 27px;
+    margin: 0 auto;
+}
+.complete-wizard > div > div:first-child::after{
+    content: "";
+    height: 3px;
+    width: 30%;
+    background-color: #6d1c7e;
+    display: block;
+    position: absolute;
+    top: 42px;
+    margin: 0 20px;
+}
+.complete-wizard > div:nth-child(3) > div:first-child::after{
+    display: none;
+}
+.complete-wizard > div > div:nth-child(2){
+    padding-top: 5px;
+}
+
+
+/*按钮*/
+.complete-button{
+    padding-bottom: 100%;
+}
+.btn-md-orange{
+    width: 35%;
+    color: #fff;
+    background-color: #F49401;
+    height: 40px;
+    border-radius: 7px;
+    margin: 5px 0 15px 0;
+    font-size: 15px;
+    font-weight: lighter;
+}
