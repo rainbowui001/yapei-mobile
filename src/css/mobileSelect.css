@@ -168,3 +168,14 @@
   position: absolute;
   top:-25px;
 }
+
+.iDate.date {
+  height: 30px;
+  width: 66%;
+}
+.iDate>button{
+  border: 1px solid #eee;
+}
+.iDate>input{
+  border:0 !important;
+}
