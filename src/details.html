@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="./css/datepicker.min.css">
+    <link href="./css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css" />
 
     <link href="./css/index.css" rel="stylesheet" type="text/css" />
     <link href="./css/details.css" rel="stylesheet" type="text/css" />
@@ -186,16 +186,21 @@
                     <span>媽媽生日</span>
                     <span>*</span>
                 </span>
-                <input type="text" name="lname" class="search-input" placeholder="yyyy-mm-dd" value="" id="dpd3" />
-            </div>
+                <div class="iDate date">
+                        <input type="text"  placeholder="yyyy-mm-dd" >
+                        <button type="button" class="addOn"></button>
+                   </div>
+                            </div>
 
             <div class="detialConditionDataInput">
                 <span>
                     <span>預產期</span>
                     <span>*</span>
                 </span>
-                <input type="text" name="lname" class="search-input" placeholder="yyyy-mm-dd" value="" id="dpd3" />
-            </div>
+                <div class="iDate date">
+                        <input type="text"  placeholder="yyyy-mm-dd" >
+                        <button type="button" class="addOn"></button>
+                   </div>            </div>
 
             <div class="detialConditionDataInput">
                 <span>
@@ -360,8 +365,8 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/datepicker.js"></script>
-    <script src="./js/datepicker.zh-TW.js"></script>
+    <script type="text/javascript" src="./js/moment.js"></script>
+    <script type="text/javascript" src="./js/bootstrap-datetimepicker.js"></script>
     <script src="./js/index.js"></script>
 
 </body>

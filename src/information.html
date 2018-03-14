@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="./css/datepicker.min.css">
+    <link href="./css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css" />
     <link href="./css/details.css" rel="stylesheet" type="text/css" />
 
     <link href="./css/information.css" rel="stylesheet" type="text/css" />
@@ -108,8 +108,11 @@
                 <span>預產期</span>
                 <span>*</span>
             </span>
-            <input type="text" name="lname" class="search-input" placeholder="yyyy-mm-dd" value="" id="dpd3" />
-        </div>
+            <div class="iDate date">
+                    <input type="text"  placeholder="yyyy-mm-dd" >
+                    <button type="button" class="addOn"></button>
+               </div>     
+               </div>
         <div class="detialConditionDataInputHP">
             <span>
                 <span>生產醫院</span>
@@ -259,26 +262,30 @@
                 <span data-toggle="modal" data-target="#myModal">並同意亞培媽媽教室線上報名條款與隱私保護方針</span>且同意個人資料收集及使用關關規定。</div>
         </div>
         <div class="sign-in-container-p1">
-                <button class="btn-lg-purpel">確認提交
+                <button class="btn-lg-purpel" data-toggle="modal" data-target="#mobile_Modal02">確認提交
                 </button>
             </div>
    
     <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="mobile_Modal02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
-                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    <h4 class="modal-title" id="myModalLabel">
+                        <img class="buttom-img" src="images/m_confirm.png" alt="" />
+                        <img  src="images/m_icon_ok.png" alt="" />
+                        <p>恭喜您訂購成功</p></h4>
                 </div>
                 <div class="modal-body">
-                    mac os安装好了很久了，不过没怎么用，昨天想要体验一下大神们推荐的黑苹果系统用起来怎么样（关于安装黑苹果的可以到我的简书去看相关文章），于是乎，打开久违的vmware，看着咬一口的苹果进度图，心中其实是有一些小激动的。 　　进入系统后，先是找终端找不到，在win下用惯了cmd，到这完全找不到北在哪。
-                    　　经过阿杜告诉我的，先进入Finder，然后左侧找到“应用程序”，选择实用工具，再找到“终端”，这就是我们中win下的cmd了。或者就是这左上角点放大镜，输入ter回车第一个就是。
+                    <p>恭喜您已經完成優惠訂購，活動小組將確認您符合資格後，於15個工作天內配送到您府上。
+                        <br>&nbsp;&nbsp;&nbsp;請務必確認您留的寄送地址與電話正確，如因不正確導致無法寄送或拒收退回均不再次寄送。
+                        <br>&nbsp;&nbsp;&nbsp;若有任何疑問，敬請洽詢客服專線 <em>0800-008 828</em>。</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn-purpel">赞同</button>
+                    <button type="button" class="btn-white" data-dismiss="modal">確定</button>
                 </div>
             </div>
         </div>
@@ -286,8 +293,8 @@
 
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/datepicker.js"></script>
-    <script src="./js/datepicker.zh-TW.js"></script>
+    <script type="text/javascript" src="./js/moment.js"></script>
+    <script type="text/javascript" src="./js/bootstrap-datetimepicker.js"></script>
     <script src="./js/index.js"></script>
 
 </body>
