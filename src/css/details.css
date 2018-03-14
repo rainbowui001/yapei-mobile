@@ -1,5 +1,7 @@
 
-
+body {
+    font-family: Microsoft YaHei; 
+}
         /* details */
         .detailsData{
             width:80%;
