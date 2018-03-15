@@ -177,8 +177,8 @@ textarea{color: #333!important;}
     .checkbox-custom input[type="checkbox"]:checked +label:after {
         position: absolute;
         display: inline-block;
-        font-family: 'FontAwesome';
-        content: '\F00C';
+        font-family: 'Glyphicons Halflings';
+        content: "\e013";
         top: 55%;
         left: 16px;
         margin-top: -8px;

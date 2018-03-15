@@ -1,0 +1,663 @@
+<head>
+    <meta charset="utf-8">
+    <title>雅培</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="./css/datepicker.min.css">
+    <link href="./css/mobileSelect.css" rel="stylesheet" type="text/css" />
+    <link href="./css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css" />
+
+
+    <link href="./css/details.css" rel="stylesheet" type="text/css" />
+    <link href="./css/information.css" rel="stylesheet" type="text/css" />
+    <link href="./css/order.css" rel="stylesheet" type="text/css" />
+    <link href="./css/shopping-trolley.css" rel="stylesheet">
+
+    <link href="./css/datetimeandselect.css" rel="stylesheet" type="text/css" />
+    
+
+    <!--[if lt IE 9]>
+          <script src="./js/html5shiv.min.js"></script>
+          <script src="./js/respond.min.js"></script>
+          <![endif]-->
+    <style>
+    body{
+        background-color: #fff;
+    }
+    </style>
+
+
+</head>
+<body>
+<!-- !!!!!!!!!!!!!!information -->
+<div class="head_return">
+    <img src="./images/m_arrow.png" alt="" />
+    <a href="#">
+        <p>行動優惠訂購專區</p>
+    </a>
+</div>
+<div class="head">
+    <div class="headLink">
+        <div>
+            <a href="#">
+                <img src="./images/logo.png" />
+            </a>
+            <a href="#">
+            </a>
+            <a href="#">
+            </a>
+        </div>
+    </div>
+    <div class="headT"></div>
+    <img src="./images/m_kv.jpg" alt="kv-banner"></img>
+</div>
+<div class="bwizard">
+    <div class="bwizard-steps">
+        <div aria-selected="true" class="active" style="z-index: 3;">
+            <a href="#step1">1.購物車</a>
+        </div>
+        <div aria-selected="false" style="z-index: 2;" class="">
+            <a href="#step2">2.填寫資料</a>
+        </div>
+        <div aria-selected="false" style="z-index: 1;">
+            <a href="#step3">3.完成訂單</a>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="title">
+        <span class="product ">
+            訂貨品項
+        </span>
+        <span class="number">
+            訂購組數
+        </span>
+        <span class="total">
+            小計
+        </span>
+    </div>
+    <div class="detials">
+        <span class="product">
+            心美力媽媽營養品優惠組香草口味（共56包）
+        </span>
+        <span class="number">
+            1
+        </span>
+        <span class="total">
+            2000
+        </span>
+    </div>
+    <div class="detials">
+        <span class="product">
+            心美力媽媽營養品優惠組草莓優格口味（共56包）
+        </span>
+        <span class="number">
+            1
+        </span>
+        <span class="total">
+            2000
+        </span>
+    </div>
+    <div class="money">
+        <span>合計金額：</span>
+        <span>NT $ 2000</span>
+    </div>
+</div>
+<div class="bg"></div>
+<div class="detialsRecomm">
+    <div class="detialConditionDataInput">
+        <span>
+            <span class="color">*</span>
+            <span>媽媽姓名</span>
+        </span>
+        <input type="text" name="lname" placeholder="张三" />
+    </div>
+    <div class="detialConditionDataInput">
+        <span>
+            <span class="color">*</span>
+            <span>預產期</span>
+        </span>
+        <div class="iDate date">
+            <input type="text" placeholder="yyyy-mm-dd">
+            <button type="button" class="addOn"></button>
+        </div>
+    </div>
+    <div class="detialConditionDataInputHP">
+        <span class="colorFont">
+            <span>
+                <span class="color">*</span>
+                <span>生產醫院</span>
+            </span>
+        </span>
+
+        <span>
+            <div id="trigger5" class="select">
+
+            </div>
+            <div id="trigger6" class="select">
+
+            </div>
+        </span>
+    </div>
+    <div class="detialConditionDataInput ">
+        <span>
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
+        </span>
+        <div class="informationInput">
+            <input type="text" name="lname" placeholder="請輸入生產醫院" />
+        </div>
+    </div>
+    <div class="detialConditionDataInput">
+        <span>
+            <span class="color">*</span>
+            <span>手機號碼</span>
+        </span>
+        <input type="text" name="lname" placeholder="09323232" />
+    </div>
+    <div class="detialConditionDataInput">
+        <span>
+            <span>室內電話</span>
+        </span>
+        <input type="text" name="lname" placeholder="09323232" />
+    </div>
+    <div class="detialConditionDataInputHP">
+        <span class="colorFont">
+            <span>
+                <span class="color">*</span>
+                <span>送貨地址</span>
+            </span>
+        </span>
+
+        <span>
+            <div id="trigger7" class="select">
+
+            </div>
+            <div id="trigger8" class="select">
+
+            </div>
+        </span>
+    </div>
+    <div class="detialConditionDataInput">
+        <span>
+            <span></span>
+            <span></span>
+        </span>
+        <input type="text" name="lname" placeholder="請輸入詳細地址" />
+    </div>
+    <div class="detialConditionDataInput">
+        <span>
+            <span class="color">*</span>
+            <span>收貨人姓名</span>
+        </span>
+        <input type="text" name="lname" placeholder="张三" />
+    </div>
+    <div class="detialConditionDataInput informationConditionDataInput">
+        <span>
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
+        </span>
+        <div>
+            <input type="checkbox" name="lname" /> 同客户姓名</div>
+    </div>
+
+    <div class="detialConditionDataInput">
+        <span class="colorFont">
+            <span>
+                <span class="color">*</span>
+
+                <span>送貨時間</span>
+            </span>
+        </span>
+
+        <div class="informationInput select" placeholder=" 8-18時(不指定）" id="trigger20">
+
+        </div>
+
+    </div>
+    <div class="detialConditionDataInput">
+        <span>
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
+        </span>
+        <div class="informationInput  select" placeholder=" 8-13時 " id="trigger21">
+        </div>
+    </div>
+    <div class="detialConditionDataInput">
+        <span>
+            <span>&nbsp;</span>
+            <span>&nbsp;</span>
+        </span>
+        <div class="informationInput select" placeholder="14-18時（最晚配送時段）" id="trigger22">
+        </div>
+    </div>
+    <div class="detialConditionDataInput informationConditionDataInput">
+        <span>
+            <span class="color">*</span>
+            <span>收款方式</span>
+        </span>
+
+        <div>
+            <input type="radio" name="lname" /> 貨到付款</div>
+    </div>
+
+    <div class="detialConditionDataInput">
+        <span class="colorFont">
+            <span>
+                <span class="color">*</span>
+                <span>發票類型</span>
+            </span>
+        </span>
+
+        <div id="trigger23" class="select">
+        </div>
+    </div>
+
+    <div class="detialConditionDataInput">
+        <span>
+            <span>發票抬頭</span>
+        </span>
+        <input type="text" name="lname" placeholder="請輸入發票擡頭" />
+    </div>
+    <div class="detialConditionDataInput">
+        <span>
+            <span>統一編號</span>
+        </span>
+        <input type="text" name="lname" placeholder="請輸入統壹編號" />
+    </div>
+    <div class="detialConditionDataInput">
+        <span>
+            <span>備註信息</span>
+        </span>
+        <input type="text" name="lname" placeholder="請輸入統壹編號" />
+    </div>
+</div>
+<div class="bg"></div>
+
+<div class="detailsItem">
+    <div>
+        <input type="checkbox" name="lname" />
+    </div>
+    <div>我已閱讀
+        <span data-toggle="modal" data-target="#mobile_Modal02">並同意亞培媽媽教室線上報名條款與隱私保護方針</span>且同意個人資料收集及使用關關規定。</div>
+</div>
+<div class="sign-in-container-p1">
+    <button class="btn-lg-purpel">確認提交
+    </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="mobile_Modal02" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    <img class="buttom-img" src="images/m_confirm.png" alt="" />
+                    <img src="images/m_icon_ok.png" alt="" />
+                    <p>恭喜您訂購成功</p>
+                </h4>
+            </div>
+            <div class="modal-body">
+                <p>恭喜您已經完成優惠訂購，活動小組將確認您符合資格後，於15個工作天內配送到您府上。
+                    <br>&nbsp;&nbsp;&nbsp;請務必確認您留的寄送地址與電話正確，如因不正確導致無法寄送或拒收退回均不再次寄送。
+                    <br>&nbsp;&nbsp;&nbsp;若有任何疑問，敬請洽詢客服專線
+                    <em>0800-008 828</em>。</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-white" data-dismiss="modal">確定</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- !!!!!!!!!!!!!!order -->
+<div class="head_return">
+    <img src="./images/m_arrow.png" alt="" />
+    <a href="#">
+        <p>行動優惠訂購專區</p>
+    </a>
+</div>
+
+<div class="head">
+    <div class="headLink">
+        <div>
+            <a href="#">
+                <img src="./images/logo.png" />
+            </a>
+            <a href="#">
+            </a>
+            <a href="#">
+            </a>
+        </div>
+    </div>
+    <div class="headT"></div>
+    <img src="./images/m_kv.jpg" alt="kv-banner"></img>
+</div>
+
+<!-- 按钮 -->
+<!--wizard-->
+<div class="bwizard">
+    <div class="bwizard-steps">
+        <div aria-selected="true" class="active" style="z-index: 3;">
+            <a href="#step1">1.購物車</a>
+        </div>
+        <div aria-selected="false" style="z-index: 2;" class="">
+            <a href="#step2">2.填寫資料</a>
+        </div>
+        <div aria-selected="false" style="z-index: 1;">
+            <a href="#step3">3.完成訂單</a>
+        </div>
+    </div>
+</div>
+
+<!-- 内容 -->
+<div class="content">
+    <div>恭喜您完成訂單 !</div>
+    <img src="./images/m_bear_002.png" />
+</div>
+
+<div>
+    <div class="title">
+        <img src="./images/orange-line.png" width="100%" />
+        <span class="product ">
+            訂貨品項
+        </span>
+        <span class="number">
+            訂購組數
+        </span>
+        <span class="total">
+            小計
+        </span>
+    </div>
+    <div class="detials">
+        <span class="product">
+            心美力媽媽營養品優惠組香草口味（共56包）
+        </span>
+        <span class="number">
+            1
+        </span>
+        <span class="total">
+            2000
+        </span>
+    </div>
+    <div class="detials">
+        <span class="product">
+            心美力媽媽營養品優惠組草莓優格口味（共56包）
+        </span>
+        <span class="number">
+            1
+        </span>
+        <span class="total">
+            2000
+        </span>
+    </div>
+    <div class="money">
+        <span>合計金額：</span>
+        <span>NT $ 2000</span>
+    </div>
+</div>
+
+<div class="detialContent">
+    <img src="./images/orange-line.png" width="100%" />
+    <div class="detialContentFont">
+        <p>運送資訊</p>
+        <div>
+            <span>媽媽姓名
+            </span>
+            <span>張三
+            </span>
+        </div>
+        <div>
+            <span>預產期
+            </span>
+            <span>2018-08-24
+            </span>
+        </div>
+        <div>
+            <span>生產醫院
+            </span>
+            <span>桃園市新山區紅房子醫院
+            </span>
+        </div>
+        <div>
+            <span>手機號
+            </span>
+            <span>0932232311
+            </span>
+        </div>
+        <div>
+            <span>室內電話
+            </span>
+            <span>0932232311
+            </span>
+        </div>
+
+        <div>
+            <span>送貨地址
+            </span>
+            <span>桃園市新山區文二路一街
+            </span>
+        </div>
+        <div>
+            <span>收貨人姓名
+            </span>
+            <span>桃園市新山區文二路一街78號
+            </span>
+        </div>
+        <div>
+            <span>送貨時間
+            </span>
+            <span>8-18時（不指定）
+            </span>
+        </div>
+        <div>
+            <span>收款方式
+            </span>
+            <span>貨到付款
+            </span>
+        </div>
+        <div>
+            <span>發票類型
+            </span>
+            <span>二聯式
+            </span>
+        </div>
+        <div>
+            <span>發票抬頭
+            </span>
+            <span>個人
+            </span>
+        </div>
+        <div>
+            <span>統一編號
+            </span>
+            <span>XXX
+            </span>
+        </div>
+        <div>
+            <span>備註信息
+            </span>
+            <span>XXX
+            </span>
+        </div>
+    </div>
+</div>
+<div class="bg"></div>
+<div class="sign-in-container-p1">
+    <button class="btn-lg-purpel">確認完成
+    </button>
+</div>
+<!-- !!!!!!!!!!!!!!!shopping-trolley -->
+<!--顶部返回-->
+<div class="head_return">
+	<img src="./images/m_arrow.png"  alt=""/>
+	<a href="#"><p>行動優惠訂購專區</p></a>
+</div>
+
+<!--顶部图片-->
+<div class="head">
+	<div class="headLink">
+		<div>
+			<a href="#">
+				<img src="./images/logo.png"  />
+			</a>
+			<a href="#">
+				<img src="images/icon_user.png" >
+			</a>
+			<a href="#">
+				<img src="./images/icon_home.png"  />
+			</a>
+		</div>
+	</div>
+	<img src="./images/m_kv.jpg" alt="kv-banner"></img>
+</div>
+
+<!--wizard-->
+<div class="bwizard">
+	<div class="bwizard-steps" >
+		<div  aria-selected="true" class="active" style="z-index: 3;">
+			<a href="#step1">1.購物車</a>
+		</div>
+		<div  aria-selected="false" style="z-index: 2;" class="">
+			<a href="#step2">2.填寫資料</a>
+		</div>
+		<div  aria-selected="false" style="z-index: 1;">
+			<a href="#step3">3.完成訂單</a>
+		</div>
+	</div>
+</div>
+
+<!-- 内容 -->
+<div class="shopping-trolley-container">
+	<div class="shopping-trolley-container_p">
+		<div class="shopping-trolley-container_p_left">
+			<div class="radio radio-custom">
+				<input type="radio" name="st_radio" id="st_1" value="option1" checked>
+				<label for="st_1"></label>
+			</div>
+			<img src="./images/m_product_01.png" alt="product1"></img>
+		</div>
+		<div class="shopping-trolley-container_p_right">
+			<h5>心美力媽媽營養品優惠組_<em>香草</em>口味</h5>
+			<p>規格:香草口味(14包／盒)X4盒，共56包</p>
+			<p>NT&nbsp;&#36;2000</p>
+			<div class="shopping-trolley-container_count">
+				<div>-</div>
+				<div>1</div>
+				<div>+</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="shopping-trolley-container_p">
+		<div class="shopping-trolley-container_p_left">
+			<div class="radio radio-custom">
+				<input type="radio" name="st_radio" id="st_2" value="option2">
+				<label for="st_2"></label>
+			</div>
+			<img src="./images/m_product_01.png" alt="product2"></img>
+		</div>
+		<div class="shopping-trolley-container_p_right">
+			<h5>心美力媽媽營養品優惠組_<em> 草莓優格</em>口味</h5>
+			<p>規格: 草莓優格口味(14包／盒)X4盒，共56包</p>
+			<p>NT&nbsp;&#36;2000</p>
+			<div class="shopping-trolley-container_count">
+				<div>-</div>
+				<div>1</div>
+				<div>+</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="shopping-trolley-container_p">
+		<div class="shopping-trolley-container_p_left">
+			<div class="radio radio-custom">
+				<input type="radio" name="st_radio" id="st_3" value="option3">
+				<label for="st_3"></label>
+			</div>
+			<img src="./images/m_product_02.png" alt="product3"></img>
+		</div>
+		<div class="shopping-trolley-container_p_right">
+			<h5>心美力媽媽營養品優惠組_<em>香草+ 草莓優格</em>口味</h5>
+			<p>規格:香草和草莓優格口味各兩盒，共56包</p>
+			<p>NT&nbsp;&#36;2000</p>
+			<div class="shopping-trolley-container_count">
+				<div>-</div>
+				<div>1</div>
+				<div>+</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="shopping-trolley-container_p">
+		<div class="shopping-trolley-container_p_left">
+			<div class="radio radio-custom">
+				<input type="radio" name="st_radio" id="st_4" value="option4">
+				<label for="st_4"></label>
+			</div>
+			<img src="./images/m_product_03.png" alt="product4"></img>
+		</div>
+		<div class="shopping-trolley-container_p_right">
+			<h4>備奶優惠方案<em>（每人限購一組，兩款擇一)</em></h4>
+			<p>規格：心美力400G&nbsp;兩罐/組</p>
+			<p>NT&nbsp;&#36;150</p>
+			<div class="shopping-trolley-container_count">
+				<div>-</div>
+				<div>1</div>
+				<div>+</div>
+			</div>
+		</div>	
+	</div>
+
+	<div class="shopping-trolley-container_p">
+		<div class="shopping-trolley-container_p_left">
+			<div class="radio radio-custom">
+				<input type="radio" name="st_radio" id="st_5" value="option5">
+				<label for="st_5"></label>
+			</div>
+			<img src="./images/m_product_04.png" alt="product5"></img>
+		</div>
+		<div class="shopping-trolley-container_p_right">
+			<h4>備奶優惠方案<em>（每人限購一組，兩款擇一)</em></h4>
+			<p>規格：心美力400G&nbsp;兩罐/組</p>
+			<p>NT&nbsp;&#36;150</p>
+			<div class="shopping-trolley-container_count">
+				<div>-</div>
+				<div>1</div>
+				<div>+</div>
+			</div>
+		</div>	
+	</div>
+
+</div>
+
+<!-- 底部计算	 -->
+<div class="shopping-trolley-bottom">
+	<div class="shopping-trolley-bottom_left">
+		<div class="radio radio-custom">
+			<input type="radio" name="st_radio" id="st_6" value="option6">
+			<label for="st_6">全選</label>
+		</div>
+	</div>
+	<div class="shopping-trolley-bottom_right">
+		<p>NT&nbsp;&#36;2000</p>
+		<div class="shopping-trolley-bottom_button">確認提交</div>
+	</div>	
+</div>
+
+
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/datepicker.js"></script>
+    <script src="./js/datepicker.zh-TW.js"></script>
+    <script type="text/javascript" src="./js/moment.js"></script>
+    <script type="text/javascript" src="./js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="./js/mobileSelect.min.js"></script>
+    <script src="./js/index.js"></script>
+
+
+</body>

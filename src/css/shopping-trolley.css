@@ -32,6 +32,7 @@ body {
     height: 40px;
     line-height: 40px;
     text-align: center;
+    position: relative;
 }
 .head_return > img{
     position: absolute;
@@ -269,8 +270,8 @@ body {
     .radio-custom input[type="radio"]:checked +label:after {
         position: absolute;
         display: inline-block;
-        font-family: 'FontAwesome';
-        content: '\F00C';
+        font-family: 'Glyphicons Halflings';
+        content: "\e013";
         top: 156%;
         left: 9px;
         font-size: 15px;
