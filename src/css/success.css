@@ -20,12 +20,15 @@
 .btn-lg-purpel{
     width: 100%;
     color: #fff;
-    background-color: #A666B1;
+    background-color: #a766af;
     height: 45px;
     border-radius: 7px;
     margin: 5px 0 15px 0;
     font-size: 17px;
     font-weight: lighter;
+}
+.btn-lg-purpel:focus{
+    background-color: #64167d;
 }
 .successFont>:nth-last-child(1){
     margin-bottom:5px;
@@ -37,4 +40,7 @@
 .successFont{
     width: 92%;
     margin: 15px auto 30px auto;
+}
+*{
+    outline: none;
 }

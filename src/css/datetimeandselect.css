@@ -14,11 +14,36 @@ button.addOn{
 #trigger2,#trigger4,#trigger6,#trigger8,#trigger12,#trigger16{
     width: 49%;
     margin-right: 0;
-    line-height: 48px;
+    vertical-align: bottom;
+    height: 30px;
+    line-height: 30px;
+}
+#trigger20,#trigger21,#trigger22,#trigger23,#trigger10,#trigger11,#trigger18{
+    width: 65%;
+    margin-right: 0;
+    vertical-align: bottom;
+    height: 30px;
+    line-height: 30px;
+}
+#trigger2::before,#trigger4::before,#trigger6::before,#trigger8::before,#trigger12::before,
+#trigger16::before,#trigger3::before,#trigger5::before,#trigger7::before,
+#trigger9::before,#trigger13::before,#trigger17::before,#trigger1::before,
+#trigger20::before,#trigger21::before,#trigger22::before,#trigger23::before,
+#trigger10::before,#trigger11::before,#trigger18::before{
+    content: "\e114";
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    color: #c9c9c9;
+    font-size: 12px;
+    position: absolute;
+    right: 5px;
+    
 }
 #trigger3,#trigger5,#trigger7,#trigger9,#trigger13,#trigger17{
     width: 48%;
-    line-height: 48px;
+    vertical-align: bottom;
+    height: 30px;
+    line-height: 30px;
 }
 
 /*日期控件*/

@@ -2,6 +2,9 @@
 body {
     font-family: Microsoft YaHei; 
 }
+*{
+    outline: none;
+}
         /* details */
         .detailsData{
             width:80%;
@@ -249,4 +252,5 @@ body {
     right: 20px;
     
     }
-         
+
+

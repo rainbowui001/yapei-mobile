@@ -1,4 +1,7 @@
 /*顶部返回*/
+*{
+    outline: none;
+}
 .head_return{
     width: 100%;
     background-color: #fff;

@@ -1,6 +1,9 @@
 body{
     background-image: none;
 }
+*{
+    outline: none;
+}
 .content{
    width: 100%;
    background-color: #fff;

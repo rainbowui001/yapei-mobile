@@ -247,4 +247,14 @@ body {
     width: 15%;
 
 }
+.attention>p>span{
+    display: inline-block;
+}
+.attention>p>:nth-child(1){
+    width: 5%;
+    vertical-align: top;
+}
+.attention>p>:nth-child(2){
+    width: 94%;
+}
         
