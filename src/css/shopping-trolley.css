@@ -161,7 +161,7 @@ body {
 /*内容*/
 .shopping-trolley-container{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 .shopping-trolley-container_p{
     position: relative;
@@ -284,6 +284,8 @@ body {
     background-color: #fff;
     height: 40px;
     width: 100%;
+    position: fixed;
+    bottom: 0;
 }
 .shopping-trolley-bottom_left{
     width: 30%;
