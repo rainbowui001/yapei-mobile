@@ -5,9 +5,17 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="./css/datepicker.min.css">
+    <link href="./css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css" />
 
-    <link href="./css/success.css" rel="stylesheet" type="text/css" />
+    <link href="./css/details.css" rel="stylesheet" type="text/css" />
+    <link href="./css/mobileSelect.css" rel="stylesheet" type="text/css" />
+    <link href="./css/information.css" rel="stylesheet" type="text/css" />
+    <link href="./css/login1.css" rel="stylesheet" type="text/css" />
+    <link href="./css/login2.css" rel="stylesheet" type="text/css" />
+    <link href="./css/total.css" rel="stylesheet">
+
+
+    <link href="./css/datetimeandselect.css" rel="stylesheet" type="text/css" />
 
     <!--[if lt IE 9]>
           <script src="./js/html5shiv.min.js"></script>
@@ -18,6 +26,606 @@
 
 
 <body>
+    <!-- 第一部分 -->
+    <div>
+        <div class="head">
+            <div class="headLink">
+                <div>
+                    <a href="#">
+                        <img src="./images/logo.png" />
+                    </a>
+                    <a href="#">
+                        <img src="images/icon_user.png">
+                    </a>
+                    <a href="#">
+                        <img src="./images/icon_home.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="login1Content">
+            <!-- button -->
+            <div class="complete">
+                <div class="complete-container">
+                    <div class="wizard">
+                        <div>
+                            <div>1</div>
+                            <div>
+                                <p>會員資料</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>2</div>
+                            <div>
+                                <p>寶寶資料</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>3</div>
+                            <div>
+                                <p>完成註冊</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="loginFont">
+                <p class="loginFontContent">誠摯歡迎您加入亞培會員！</p>
+                <p class="loginFontContent">加入亞培會員即可免費使用亞培公司所提供的相關線上服務，包括:保健資料索取，營養品試用，簡易健康檢測，產品訂購..等服務。您只要填寫完整的會員資料即可加入，我們會以您方便的聯絡時間與您聯系</p>
+                <p class="loginFontContent">謝謝您~祝 </p>
+                <p> 您闔家平安健康！事事順心 </p>
+                <p>亞培會員服務中心 敬上 </p>
+            </div>
+            <div class="detailsItem">
+                <div>
+                    <input type="checkbox" name="lname" />
+                </div>
+                <div>註冊前請詳閱
+                    <span data-toggle="modal" data-target="#myModal2">亞培專屬會員資料索取、咨詢檢測、線上訂購、會員資料登入約定條款。</span>
+                </div>
+            </div>
+
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal2" tabindex="-2" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            <h4 class="modal-title" id="myModalLabel">亞培媽媽教室線上報名條款與隱私保護方針</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h5>亞培專屬會員資料索取、諮詢檢測、線上訂購、會員資料登入約定條款 </h5>
+                            <p>
+                                1.&nbsp;&nbsp;&nbsp;&nbsp; 為方便您能在亞培專屬會員使用完整功能並確保您完整的權益，請務必確實填寫您的資料，若發現有填寫不實的狀況，亞培網站得以暫停或終止您的訂單與會員資格。
+                                <br>2.&nbsp;&nbsp;&nbsp;&nbsp; 本網站絕對尊重會員個人隱私，除法令或因相關主管機關要求外，在未獲會員授權時，絕不公開您的姓名、地址、電子郵件信箱，以及其他依法受保護的個人資訊。對於您所登入之資料，亞培也會善盡保護之責任，未獲會員授權前，絕不外流。
+                                <br>3.&nbsp;&nbsp;&nbsp;&nbsp; 亞培專屬會員僅限居住在中華民國台灣本島及金門, 馬祖, 澎湖地區之居民訂購產品並申請加入會員。
+                                <br>4.&nbsp;&nbsp;&nbsp;&nbsp; 為保護消費者, 亞培專屬會員僅開放年滿20歲(含)以上方得訂購產品並加入會員。
+                                <br>5.&nbsp;&nbsp;&nbsp;&nbsp; 非經亞培專屬會員事先同意，您不得將亞培專屬會員內之任何資料複製、移轉、散佈、租用或出售等。且不得以任何方式，企圖破壞及干擾
+                                亞培專屬會員上之各項資料與功能。同時必須遵守電信法及其他相關法令之規定，如有違反，亞培專屬會員得依法請求賠償。
+                                <br>6.&nbsp;&nbsp;&nbsp;&nbsp; 亞培專屬會員上所刊登的文章及資訊僅供參考，若會員對於內容有任何疑問，請洽詢專業醫護人員，依個人狀況進行評估。
+                                <br>7.&nbsp;&nbsp;&nbsp;&nbsp; 會員於亞培專屬會員上所發表的文字、照片、影片或其他任何形態的資訊，均視為發言人個人言論，不代表本網站立場。對於不恰當之發言內
+                                容，亞培專屬會員將保留移除與否之權利，以維護網站秩序並保障其他人閱覽時之權益。如內容有任何侵害他人權益或違法之情事，會員同意自行負責，與本網站無關。
+                                <br>8.&nbsp;&nbsp;&nbsp;&nbsp; 您了解並同意有關於我們收集您個人資料及我們將如何使用這些資訊。我們將使用您的資訊用於郵寄（或以電子郵件方式）電話、傳真或行動電話簡訊給您有關嬰幼兒營養，成人保健，體重管理，或各種急慢性病保健如：糖尿病，慢性腎臟病，腫瘤，慢性阻塞性肺病，管灌…等及相關治療、產品與服務之有用資訊。以及提供行銷與資訊應用方面，我們也可將此資訊交付協助我們收集與處理資訊的關係企業及其子公司，以及本公司所授權之獨立第三方分享或轉至其他國家。您同意上述所述之收集,使用並開放使用您的個人資料。有任何問題，你會主動聯繫本公司。
+                                <br>9.&nbsp;&nbsp;&nbsp;&nbsp; 亞培專屬會員保留隨時修改或中斷網站內容與服務而不需告知用戶的權利。如果亞培專屬會員行使修改或中斷網站內容與服務的權利，則無需對用戶或任何第三方負責。
+                                <br>10. &nbsp;&nbsp;&nbsp;&nbsp;您同意亞培專屬會員使用、蒐集您的資料是為了透過寄發(包含電子郵件)及電話服務等提供對你本身有助益、實用的信息，如：健康/
+                                產品/服務/相關治療…等資訊及新聞訊息。 同時作為亞培進行行銷活動, 研究或與其關係企業內之利用。若您不需要收到相關資訊，亦可備妥個人相關資料寄回亞培, 亞培將於兩週內取消寄送。
+                                <br>11. &nbsp;&nbsp;&nbsp;&nbsp;您除應遵守本約定書外，亦同意遵守亞培專屬會員各項法律規定，如未遵守，亞培專屬會員保留取消您會員資格之權利。若會員權益之內容有異動
+                                時，亞培專屬會員會於網站上即時公告，並以電子郵件或信函通知會員。會員應於收到通知後15日內閱讀修正後之條款，並回覆有異議之部分，否則視為 同意遵守修正後之約定條款。
+                                <br>12. &nbsp;&nbsp;&nbsp;&nbsp;本約定條款以中華民國法律為準據法，若會員因本約定條款而與亞培專屬會員有涉及訴訟時，同意以台灣台北地方法院為第一審管轄法院。但法律有專屬管轄之特別規定者，從其規定。
+
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn-purpel" data-dismiss="modal">赞同</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- details -->
+            <div class="loginInformation">
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span class="color">*</span>
+                        <span>昵稱</span>
+                    </span>
+                    <input type="text" name="lname" placeholder="张三" />
+                </div>
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span class="color">*</span>
+                        <span>姓名</span>
+                    </span>
+                    <input type="text" name="lname" placeholder="张三" />
+
+                </div>
+                <div class="detialConditionDataInput informationConditionDataInput">
+                    <span>
+                        <span>性别</span>
+                    </span>
+                    <div>
+                        <input type="radio" name="lname" /> 男 &nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="lname" /> 女
+                    </div>
+                </div>
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span class="color">*</span>
+                        <span>密碼</span>
+                    </span>
+                    <input type="text" name="lname" placeholder="XXX" />
+
+                </div>
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span class="color">*</span>
+                        <span>確認密碼</span>
+                    </span>
+                    <input type="text" placeholder="XXX">
+
+                </div>
+                <div class="detialConditionDataInput informationConditionDataInput">
+                    <span>
+                        <span class="color">*</span>
+                        <span>身份字號</span>
+                    </span>
+                    <div>
+                        <input type="checkbox" name="lname" />
+                        <span class="numberLogin3">外籍人士请勾选此处并填入护照号码</span>
+                    </div>
+                </div>
+                <div class="detialConditionDataInput informationConditionDataInput">
+                    <span>
+                        <span class="color">*</span>
+                        <span>婚姻</span>
+                    </span>
+                    <div>
+                        <input type="radio" name="lname" /> 未婚 &nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="lname" /> 已婚
+                    </div>
+                </div>
+                <div class="detialConditionDataInput ">
+                    <span class="colorFont">
+                        <span>
+                            <span class="color">*</span>
+                            <span>學歷</span>
+                        </span>
+                    </span>
+
+                    <div class="informationInput select" id="trigger03">
+
+                    </div>
+                </div>
+                <div class="detialConditionDataInput ">
+                    <span class="colorFont">
+                        <span>
+                            <span class="color">*</span>
+                            <span>職業</span>
+                        </span>
+                    </span>
+
+                    <div class="informationInput select" id="trigger04">
+
+                    </div>
+                </div>
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span class="color">*</span>
+                        <span>手機號碼</span>
+                    </span>
+                    <input type="text" name="lname" placeholder="09323232" />
+                </div>
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span>聯絡電話(日)</span>
+                    </span>
+                    <span class="phoneLogin">
+                        <input class="phoneLogin1" type="text" name="lname" placeholder="區碼" />+
+                        <input class="phoneLogin1" type="text" name="lname" placeholder="電話" />+
+                        <input class="phoneLogin1" type="text" name="lname" placeholder="分機" />
+                    </span>
+                </div>
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span>聯絡電話(夜)</span>
+                    </span>
+                    <span class="phoneLogin">
+                        <input class="phoneLogin1" type="text" name="lname" placeholder="區碼" />+
+                        <input class="phoneLogin1" type="text" name="lname" placeholder="電話" />+
+                        <input class="phoneLogin1" type="text" name="lname" placeholder="分機" />
+                    </span>
+                </div>
+                <div class="detialConditionDataInputHP">
+                    <span class="colorFont">
+                        <span>
+                            <span>居住地址</span>
+                        </span>
+                    </span>
+
+                    <span>
+                        <div class="informationInput select" id="trigger4">
+                        </div>
+                        <div class="informationInput select" id="trigger5">
+                        </div>
+                    </span>
+                </div>
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span>&nbsp;</span>
+                        <span>&nbsp;</span>
+                    </span>
+                    <input type="text" name="lname" placeholder="請輸入詳細地址" />
+                </div>
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span>備份電子信息</span>
+                    </span>
+                    <input type="text" name="lname" placeholder="請輸入電子信箱" />
+                </div>
+
+                <div class="detialConditionDataInput ">
+                    <span class="colorFont">
+                        <span>
+                            <span>方便聯絡時間</span>
+                        </span>
+                    </span>
+
+                    <div class="informationInput select" id="trigger05">
+
+                    </div>
+                </div>
+            </div>
+            <div class="sign-in-container-p1">
+                <button class="btn-lg-purpel" data-toggle="modal" data-target="#mobile_Modal02">下一步
+                </button>
+            </div>
+        </div>
+        <img class="buttom-img" src="images/m_footer_bg.png" alt="" />
+        <div class="copyright">
+            <div class="copyright-text">
+                <p>亞培育兒專線：
+                    <a href="#">0800-008-828</a>&nbsp;|&nbsp;
+                    <a href="#">使用條款</a>&nbsp;|&nbsp;
+                    <a href="#"> 隱私權保護</a>
+                </p>
+                <p>Copyright&nbsp;&copy;&nbsp;2018&nbsp;Abbott&nbsp;Laboratories&nbsp;Services&nbsp;Corp.Taiwan</p>
+                <p>Branch, R.O.C. All &nbsp;Rights&nbsp; Reserved.</p>
+                <img src="./images/logo_white.png" alt="" />
+            </div>
+        </div>
+
+    </div>
+
+    <!-- 第二部分 -->
+    <div>
+        <div class="head">
+            <div class="headLink">
+                <div>
+                    <a href="#">
+                        <img src="./images/logo.png" />
+                    </a>
+                    <a href="#">
+                        <img src="images/icon_user.png">
+                    </a>
+                    <a href="#">
+                        <img src="./images/icon_home.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 内容 -->
+        <div class="login1Content">
+            <!-- button -->
+            <div class="complete">
+                <div class="complete-container">
+                    <div class="wizard">
+                        <div>
+                            <div>1</div>
+                            <div>
+                                <p>會員資料</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>2</div>
+                            <div>
+                                <p>寶寶資料</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>3</div>
+                            <div>
+                                <p>完成註冊</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- details -->
+            <div class="loginInformation">
+                <div class="detialConditionDataInput informationConditionDataInput">
+                    <span>
+                        <span class="color">*</span>
+                        <span>懷孕中</span>
+                    </span>
+                    <div>
+                        <input type="radio" name="lname" /> 是 &nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="lname" /> 否
+                    </div>
+                </div>
+                <div class="detialConditionDataInput informationConditionDataInput numberLogin2">
+                    <span>
+                        <span>&nbsp;</span>
+                        <span>&nbsp;</span>
+                    </span>
+                    <div class="numberLogin2">
+                        <span class="numberLogin">勾選懷孕中請填寫以下資料</span>
+                    </div>
+                </div>
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span class="color">*</span>
+                        <span>預產期</span>
+                    </span>
+                    <div class="iDate date">
+                        <input type="text" placeholder="yyyy-mm-dd">
+                        <button type="button" class="addOn"></button>
+                    </div>
+                </div>
+
+                <div class="detialConditionDataInput">
+                    <span class="colorFont">
+                        <span>
+                            <span class="color">*</span>
+                            <span>胎次</span>
+                        </span>
+                    </span>
+
+                    <div id="trigger01" class="select">
+
+                    </div>
+                </div>
+
+                <div class="detialConditionDataInputHP">
+                    <span class="colorFont">
+                        <span>
+                            <span class="color">*</span>
+                            <span>生產醫院</span>
+                        </span>
+                    </span>
+                    <span>
+                        <div id="trigger2" class="select">
+
+                        </div>
+                        <div id="trigger3" class="select">
+
+                        </div>
+                    </span>
+                </div>
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <input type="text" name="lname" placeholder="請輸入詳細地址" />
+                </div>
+
+                <div class="detialConditionDataInput informationConditionDataInput">
+                    <span>
+                        <span class="color">*</span>
+                        <span>有小孩</span>
+                    </span>
+                    <div>
+                        <input type="radio" name="lname" /> 是 &nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="lname" /> 否
+                    </div>
+                </div>
+                <div class="detialConditionDataInput informationConditionDataInput numberLogin2">
+                    <span>
+                        <span>&nbsp;</span>
+                        <span>&nbsp;</span>
+                    </span>
+                    <div class="numberLogin2">
+                        <span class="numberLogin">勾選有小孩至少填寫壹份寶寶資料</span>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="babyInformation">寶寶資料一</h3>
+
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span>寶寶姓名</span>
+                    </span>
+                    <div class="informationInput">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="detialConditionDataInput">
+                    <span class="colorFont">
+                        <span>
+                            <span>親子關系</span>
+                        </span>
+                    </span>
+
+                    <div class="informationInput select" id="trigger07">
+
+                    </div>
+                </div>
+                <div class="detialConditionDataInput">
+                    <span>
+                        <span>寶寶生日</span>
+                    </span>
+                    <div class="iDate date">
+                        <input type="text" placeholder="yyyy-mm-dd">
+                        <button type="button" class="addOn"></button>
+                    </div>
+                </div>
+
+                <h2 class="babyInformation">寶寶資料二</h3>
+
+                    <div class="detialConditionDataInput">
+                        <span>
+                            <span>寶寶姓名</span>
+                        </span>
+                        <div class="informationInput">
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="detialConditionDataInput">
+                        <span class="colorFont">
+                            <span>
+                                <span>親子關系</span>
+                            </span>
+                        </span>
+                        <div class="informationInput select" id="trigger18">
+                        </div>
+                    </div>
+                    <div class="detialConditionDataInput">
+                        <span>
+                            <span>寶寶生日</span>
+                        </span>
+                        <div class="iDate date">
+                            <input type="text" placeholder="yyyy-mm-dd">
+                            <button type="button" class="addOn"></button>
+                        </div>
+                    </div>
+                    <h2 class="babyInformation">寶寶資料三</h3>
+                        <div class="detialConditionDataInput">
+                            <span>
+                                <span>寶寶姓名</span>
+                            </span>
+                            <div class="informationInput">
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="detialConditionDataInput">
+                            <span class="colorFont">
+                                <span>
+                                    <span>親子關系</span>
+                                </span>
+                            </span>
+                            <div class="informationInput select" id="trigger18">
+                            </div>
+                        </div>
+                        <div class="detialConditionDataInput">
+                            <span>
+                                <span>寶寶生日</span>
+                            </span>
+                            <div class="iDate date">
+                                <input type="text" placeholder="yyyy-mm-dd">
+                                <button type="button" class="addOn"></button>
+                            </div>
+                        </div>
+                        <div class="detialConditionDataInput">
+                            <span>
+                                <span>驗證碼</span>
+                            </span>
+                            <div class="informationInput">
+                                <input type="text" placeholder=" 驗證碼 ">
+                            </div>
+                        </div>
+
+
+                        <div class="sign-in-container-p1">
+                            <button class="btn-lg-purpel" data-toggle="modal" data-target="#mobile_Modal02">送出
+                            </button>
+                        </div>
+                        <img class="buttom-img" src="images/m_footer_bg.png" alt="" />
+                        <div class="copyright">
+                            <div class="copyright-text">
+                                <p>亞培育兒專線：
+                                    <a href="#">0800-008-828</a>&nbsp;|&nbsp;
+                                    <a href="#">使用條款</a>&nbsp;|&nbsp;
+                                    <a href="#"> 隱私權保護</a>
+                                </p>
+                                <p>Copyright&nbsp;&copy;&nbsp;2018&nbsp;Abbott&nbsp;Laboratories&nbsp;Services&nbsp;Corp.Taiwan</p>
+                                <p>Branch, R.O.C. All &nbsp;Rights&nbsp; Reserved.</p>
+                                <img src="./images/logo_white.png" alt="" />
+                            </div>
+                        </div>
+        </div>
+    </div>
+
+    <!-- 第三部分 -->
+    <div>
+        <!--顶部图片-->
+        <div class="head">
+            <div class="headLink">
+                <div>
+                    <a href="#">
+                        <img src="./images/logo.png" />
+                    </a>
+                    <a href="#">
+                        <img src="images/icon_user.png">
+                    </a>
+                    <a href="#">
+                        <img src="./images/icon_home.png" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!--  完成正文 -->
+        <div class="complete">
+            <div class="complete-container">
+                <div class="complete-wizard">
+                    <div>
+                        <div>1</div>
+                        <div>
+                            <p>會員資料</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>2</div>
+                        <div>
+                            <p>寶寶資料</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>3</div>
+                        <div>
+                            <p>完成註冊</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="complete-title">
+                    <img src="images/icon_ok.png" alt="" />
+                    <p>恭喜您已完成註冊</p>
+                </div>
+
+                <div class="complete-button">
+                    <button class="btn-md-orange">返回首頁</button>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- 底部版权 -->
+        <img class="buttom-img" src="images/m_footer_bg.png" alt="" />
+        <div class="copyright">
+            <div class="copyright-text">
+                <p>亞培育兒專線：
+                    <a href="#">0800-008-828</a>&nbsp;|&nbsp;
+                    <a href="#">使用條款</a>&nbsp;|&nbsp;
+                    <a href="#"> 隱私權保護</a>
+                </p>
+                <p>Copyright&nbsp;&copy;&nbsp;2018&nbsp;Abbott&nbsp;Laboratories&nbsp;Services&nbsp;Corp.Taiwan</p>
+                <p>Branch, R.O.C. All &nbsp;Rights&nbsp; Reserved.</p>
+                <img src="./images/logo_white.png" alt="" />
+            </div>
+        </div>
+    </div>
+
     <script src="./js/jquery.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
     <script type="text/javascript" src="./js/moment.js"></script>
