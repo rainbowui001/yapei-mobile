@@ -10,12 +10,13 @@ button.addOn{
 .detialConditionDataInputHP>:nth-child(2)>:nth-child(1){
     width: 100%;
 }
-#trigger2{
+/*1.10.11.14.15.18.19.20为单个不是一对*/
+#trigger2,#trigger4,#trigger6,#trigger8,#trigger12,#trigger16{
     width: 49%;
     margin-right: 0;
     line-height: 48px;
 }
-#trigger3{
+#trigger3,#trigger5,#trigger7,#trigger9,#trigger13,#trigger17{
     width: 48%;
     line-height: 48px;
 }
