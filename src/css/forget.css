@@ -83,10 +83,12 @@ input{color: #333;}
 .log-in-title{
     text-align: center;
 }
-.log-in-title > p{
+.log-in-title > a > p{
     font-size: 20px;
     padding-top: 15px;
     margin-bottom: 15px;
+    font-weight: bold;
+    color: #6d1c7e;
 }
 
 .log-in-paragraphy{
@@ -188,6 +190,10 @@ input{color: #333;}
     opacity: 0.9;
     padding-bottom: 0;
     text-transform: uppercase;
+}
+.copyright a{
+    color: #fff!important;
+    text-decoration: none;
 }
 .copyright-text > p:first-child{
     font-size: 12px;

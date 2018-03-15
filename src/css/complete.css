@@ -173,6 +173,11 @@ body {
     max-width: 480px;
     margin: 0 auto;
 }
+
+.copyright a{
+    color: #fff!important;
+    text-decoration: none;
+}
 .copyright p{
     display: block;
     text-align: center;
