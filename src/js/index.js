@@ -17,28 +17,50 @@ $(document).ready(function(){
             dayViewHeaderFormat:"YYYY年 MMMM"
         });
     }
-    var mobileSelect1 = new MobileSelect({
-        trigger: '#trigger1',
-        title: '请选择胎次',
-        wheels: [
-                    {data:['1','2','3','4']}
-                ],
-        position:[2] //初始化定位
-    });
-    var mobileSelect2 = new MobileSelect({
-        trigger: '#trigger2',
-        title: '请选择县市',
-        wheels: [
-                    {data:['中部','南部','北部']}
-                ], 
-        position:[2] //初始化定位
-    });
-    var mobileSelect3 = new MobileSelect({
-        trigger: '#trigger3',
-        title: '请选择区',
-        wheels: [
-                    {data:['中正区','大同区','松山区','内湖区']}
-                ],
-        position:[2] //初始化定位
+
+    if($("#trigger1").length>0){
+        var mobileSelect1 = new MobileSelect({
+            trigger: '#trigger1',
+            title: '请选择胎次',
+            wheels: [
+                        {data:['1','2','3','4']}
+                    ],
+            position:[2] //初始化定位
+        });
+        var mobileSelect2 = new MobileSelect({
+            trigger: '#trigger2',
+            title: '请选择县市',
+            wheels: [
+                        {data:['中部','南部','北部']}
+                    ], 
+            position:[2] //初始化定位
+        });
+        var mobileSelect3 = new MobileSelect({
+            trigger: '#trigger3',
+            title: '请选择区',
+            wheels: [
+                        {data:['中正区','大同区','松山区','内湖区']}
+                    ],
+            position:[2] //初始化定位
+        });
+    }
+       
+   
+    var height  =$(window).height();
+    var flag = true;
+    $(window).scroll(function(event){
+        var winPos = $(window).scrollTop();
+        if(winPos>height){
+            if(flag){
+                $(".headLink").addClass("fixed-top");
+                flag = false;
+            }
+        }else{
+            if(!flag){
+                $(".headLink").removeClass("fixed-top");
+                flag = true;
+            }
+        }
+
     });
 })
