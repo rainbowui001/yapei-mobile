@@ -4,6 +4,9 @@ html{
     outline: none;
     overflow-y: hidden;
 }
+*{
+    outline: none;
+}
 body {
     margin:0;
     padding: 0;
@@ -141,9 +144,10 @@ body {
 .btn-md-orange{
     width: 35%;
     color: #fff;
-    background-color: #F49401;
+    background-color: #f59300;
+    border: 0;
     height: 40px;
-    border-radius: 7px;
+    border-radius: 10px;
     margin: 5px 0 15px 0;
     font-size: 15px;
     font-weight: lighter;

@@ -1,6 +1,8 @@
 html{
     font-size: 16px;
     overflow-x: hidden;
+}
+*{
     outline: none;
 }
 body {
@@ -142,12 +144,16 @@ body {
 .btn-lg-orange{
     width: 100%;
     color: #fff;
-    background-color: #F49401;
+    background-color: #ffd9ad;
     height: 45px;
-    border-radius: 7px;
+    border-radius: 10px;
+    border: none;
     margin: 5px 0 15px 0;
     font-size: 17px;
     font-weight: lighter;
+}
+.btn-lg-orange:focus{
+    background-color: #f59300;
 }
 
 /*底部版权*/

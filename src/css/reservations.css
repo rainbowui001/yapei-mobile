@@ -3,6 +3,9 @@ html{
     overflow-x: hidden;
     outline: none;
 }
+*{
+    outline: none;
+}
 body {
     margin:0;
     padding: 0;
@@ -163,7 +166,9 @@ body {
 .btn-gray,.btn-orange{
     width: 120px;
     height: 32px;
-    color: #fff;
+    color: #fff!important;
+    border-radius: 10px;
+    border: 0;
 }
 .btn{
     padding: 0;
@@ -173,8 +178,19 @@ body {
 
 }
 .btn-orange{
-    background-color: #f59400;
+    background-color: #ffd9a0;
 }
+.btn-orange:focus{
+    background-color: #f59300;
+}
+.btn.active.focus,
+ .btn.active:focus,
+  .btn.focus,
+   .btn:active.focus,
+    .btn:active:focus,
+     .btn:focus{
+         outline: none;
+     }
 
 
 /*底部版权*/
