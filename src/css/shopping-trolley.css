@@ -269,8 +269,8 @@ body {
     .radio-custom input[type="radio"]:checked +label:after {
         position: absolute;
         display: inline-block;
-        font-family: 'FontAwesome';
-        content: '\F00C';
+        font-family: 'Glyphicons Halflings';
+        content: "\e013";
         top: 156%;
         left: 9px;
         font-size: 15px;
