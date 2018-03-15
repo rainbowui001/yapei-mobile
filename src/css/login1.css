@@ -94,6 +94,10 @@ body{
     padding-bottom: 0;
     text-transform: uppercase;
     }
+    .copyright a{
+        color: #fff!important;
+        text-decoration: none;
+    }
     .copyright-text > p:first-child{
     font-size: 12px;
     }
