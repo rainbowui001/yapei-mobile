@@ -1,4 +1,15 @@
 $(document).ready(function(){
+    // button
+    $(".tabButton").click(function () {
+        $(this).siblings().removeClass("showButton");
+        $(this).addClass("showButton");
+        var index = $(this).index();
+        var content =$(this).parents(".contentNav").siblings(".tab-content").find(".carousel").eq(index);
+        content.show();
+        content.siblings().hide();
+    })
+
+
     if($(".iDate.date").length>0){
         $(".iDate.date").datetimepicker({
             locale:"zh-cn",

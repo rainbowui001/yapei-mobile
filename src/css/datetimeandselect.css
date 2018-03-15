@@ -28,17 +28,20 @@ button.addOn{
     width: 65%;
   }
   .iDate>button{
-    border: 1px solid #eee;
+    border: 1px solid #c9c9c9;
   }
   .iDate>input{
     border:0 !important;
+  }
+  .iDate>input[placeholder]{
+      color:#999;
   }
 /*一行两个m_datetime*/
 .m_datetime{
     width: 33.7%!important;
 }
 .m_datetime > button{
-    border-color: #eee;
+    border-color: #c9c9c9;
 }
 
 .dtPicker .select{

@@ -71,7 +71,7 @@
     top:43px;
     left: 30%;
     font-size: 20px;
-    color:#63337d;
+    color:#64167d;
     text-align: center;
 }
 .content>img{
@@ -98,7 +98,7 @@
     color: rgb(65, 60, 60);
     width: 92%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 14px;
     border: 1px solid #eee;
     padding:7px 5px;
 }
@@ -107,7 +107,7 @@
     line-height: 70px;
     width: 92%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 14px;
     border: 1px solid #eee;
     padding-right: 10px;
     text-align: end;
@@ -165,8 +165,8 @@
 .detialContentFont>div{
     height: 50px;
     line-height: 50px;
-    font-size: 17px;
-    color: rgb(88, 80, 79);
+    font-size: 15px;
+    color: #333;
 }
 .detialContentFont>div>span{
     display: inline-block;
@@ -194,12 +194,18 @@
     .btn-lg-purpel{
     width: 100%;
     color: #fff;
-    background-color: #A666B1;
+    background-color: #a766af;
     height: 45px;
-    border-radius: 7px;
+    border-radius: 10px;
     margin: 5px 0 15px 0;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: lighter;
+    border:0;
+ }
+ .btn-lg-purpel:focus{
+     background-color: #64167d;
+     border: none !important;
+     outline-style: none !important;
  }
  /*wizard*/
 .bwizard{

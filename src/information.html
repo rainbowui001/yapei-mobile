@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="./css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    
+
     <link href="./css/mobileSelect.css" rel="stylesheet" type="text/css" />
     <link href="./css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css" />
     <link href="./css/details.css" rel="stylesheet" type="text/css" />
@@ -102,15 +102,15 @@
     <div class="detialsRecomm">
         <div class="detialConditionDataInput">
             <span>
+                <span class="color">*</span>
                 <span>媽媽姓名</span>
-                <span>*</span>
             </span>
             <input type="text" name="lname" placeholder="张三" />
         </div>
         <div class="detialConditionDataInput">
             <span>
+                <span class="color">*</span>
                 <span>預產期</span>
-                <span>*</span>
             </span>
             <div class="iDate date">
                 <input type="text" placeholder="yyyy-mm-dd">
@@ -120,8 +120,8 @@
         <div class="detialConditionDataInputHP">
             <span class="colorFont">
                 <span>
-                    <span>生產醫院</span>
                     <span class="color">*</span>
+                    <span>生產醫院</span>
                 </span>
             </span>
 
@@ -145,23 +145,22 @@
         </div>
         <div class="detialConditionDataInput">
             <span>
+                <span class="color">*</span>
                 <span>手機號碼</span>
-                <span>*</span>
             </span>
             <input type="text" name="lname" placeholder="09323232" />
         </div>
         <div class="detialConditionDataInput">
             <span>
                 <span>室內電話</span>
-                <span>&nbsp;</span>
             </span>
             <input type="text" name="lname" placeholder="09323232" />
         </div>
         <div class="detialConditionDataInputHP">
             <span class="colorFont">
                 <span>
-                    <span>送貨地址</span>
                     <span class="color">*</span>
+                    <span>送貨地址</span>
                 </span>
             </span>
 
@@ -183,8 +182,8 @@
         </div>
         <div class="detialConditionDataInput">
             <span>
+                <span class="color">*</span>
                 <span>收貨人姓名</span>
-                <span>*</span>
             </span>
             <input type="text" name="lname" placeholder="张三" />
         </div>
@@ -198,30 +197,39 @@
         </div>
 
         <div class="detialConditionDataInput">
-            <span>
-                <span>送貨時間</span>
-                <span>*</span>
+            <span class="colorFont">
+                <span>
+                    <span class="color">*</span>
+
+                    <span>送貨時間</span>
+                </span>
             </span>
-            <input type="text" name="lname" placeholder="8-18時（不指定）" />
+
+            <div class="informationInput select" placeholder=" 8-18時(不指定）" id="trigger20">
+
+            </div>
+
         </div>
         <div class="detialConditionDataInput">
             <span>
                 <span>&nbsp;</span>
                 <span>&nbsp;</span>
             </span>
-            <input type="text" name="lname" placeholder="8-13時" />
+            <div class="informationInput  select" placeholder=" 8-13時 " id="trigger21">
+            </div>
         </div>
         <div class="detialConditionDataInput">
             <span>
                 <span>&nbsp;</span>
                 <span>&nbsp;</span>
             </span>
-            <input type="text" name="lname" placeholder="14-18時（最晚配送時段）" />
+            <div class="informationInput select" placeholder="14-18時（最晚配送時段）" id="trigger21">
+            </div>
         </div>
         <div class="detialConditionDataInput informationConditionDataInput">
             <span>
+                <span class="color">*</span>
                 <span>收款方式</span>
-                <span>*</span>
             </span>
 
             <div>
@@ -230,8 +238,8 @@
         <div class="detialConditionDataInput ">
             <span class="colorFont">
                 <span>
-                    <span>發票類型</span>
                     <span class="color">*</span>
+                    <span>發票類型</span>
                 </span>
             </span>
 
@@ -243,21 +251,18 @@
         <div class="detialConditionDataInput">
             <span>
                 <span>發票抬頭</span>
-                <span>&nbsp;</span>
             </span>
             <input type="text" name="lname" placeholder="請輸入發票擡頭" />
         </div>
         <div class="detialConditionDataInput">
             <span>
                 <span>統一編號</span>
-                <span>&nbsp;</span>
             </span>
             <input type="text" name="lname" placeholder="請輸入統壹編號" />
         </div>
         <div class="detialConditionDataInput">
             <span>
                 <span>備註信息</span>
-                <span>&nbsp;</span>
             </span>
             <input type="text" name="lname" placeholder="請輸入統壹編號" />
         </div>
@@ -269,10 +274,10 @@
             <input type="checkbox" name="lname" />
         </div>
         <div>我已閱讀
-            <span data-toggle="modal" data-target="#myModal">並同意亞培媽媽教室線上報名條款與隱私保護方針</span>且同意個人資料收集及使用關關規定。</div>
+            <span  data-toggle="modal" data-target="#mobile_Modal02">並同意亞培媽媽教室線上報名條款與隱私保護方針</span>且同意個人資料收集及使用關關規定。</div>
     </div>
     <div class="sign-in-container-p1">
-        <button class="btn-lg-purpel" data-toggle="modal" data-target="#mobile_Modal02">確認提交
+        <button class="btn-lg-purpel">確認提交
         </button>
     </div>
 
