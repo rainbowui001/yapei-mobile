@@ -17,7 +17,13 @@
     font-size: 14px;
 }
 .sign-in-container-p1>button{
-    background-color: #f49300;
+    border:none !important;
+    background-color: #ffd9a0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.sign-in-container-p1>button:focus{
+    background-color: #f59300;
 }
  /*底部版权*/
  .buttom-img{
@@ -42,7 +48,8 @@
     .copyright p{
     display: block;
     text-align: center;
-    color: #bbb;
+    color: #fff;
+    opacity: 0.9;
     padding-bottom: 0;
     text-transform: uppercase;
     }
@@ -128,7 +135,7 @@
 .btn-md-orange{
     width: 35%;
     color: #fff;
-    background-color: #F49401;
+    background-color: #ffd920;
     height: 40px;
     border-radius: 7px;
     margin: 5px 0 15px 0;
