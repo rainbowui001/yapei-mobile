@@ -3,6 +3,9 @@ body{
     background: url(../images/body_bg.png);
     position: relative;
 }
+*{
+    outline: none;
+}
 .head{
     height: 40px;
     background-color: #fff;
@@ -259,3 +262,19 @@ height: 50px;
     right: 20px;
     
     }
+    .phoneLogin{
+        display: inline-block;
+        width: 65% !important;
+    }
+   .phoneLogin1{
+        padding: 0 5px;
+        border: 1px solid #c9c9c9;
+        border-radius: 3px !important;
+        height: 30px;
+        line-height: 30px;
+        color:#333;
+        width: 29.3% !important;
+   }
+   .phoneLogin1[placeholder]{
+       font-size: 12px;
+   }

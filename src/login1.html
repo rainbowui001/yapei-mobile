@@ -14,6 +14,7 @@
     <link href="./css/mobileSelect.css" rel="stylesheet" type="text/css" />
     <link href="./css/information.css" rel="stylesheet" type="text/css" />
     <link href="./css/login1.css" rel="stylesheet" type="text/css" />
+    <link href="./css/datetimeandselect.css" rel="stylesheet" type="text/css" />
 
     <!--[if lt IE 9]>
     <script src="./js/html5shiv.min.js"></script>
@@ -217,13 +218,21 @@
                 <span>
                     <span>聯絡電話(日)</span>
                 </span>
-                <input type="text" name="lname" />
+                <span class="phoneLogin">
+                    <input class="phoneLogin1" type="text" name="lname" placeholder="區碼" />+
+                    <input class="phoneLogin1" type="text" name="lname" placeholder="電話" />+
+                    <input class="phoneLogin1" type="text" name="lname" placeholder="分機" />
+                </span>
             </div>
             <div class="detialConditionDataInput">
                 <span>
                     <span>聯絡電話(夜)</span>
                 </span>
-                <input type="text" name="lname" placeholder="區碼+電話+分機" />
+                <span class="phoneLogin">
+                    <input class="phoneLogin1" type="text" name="lname" placeholder="區碼" />+
+                    <input class="phoneLogin1" type="text" name="lname" placeholder="電話" />+
+                    <input class="phoneLogin1" type="text" name="lname" placeholder="分機" />
+                </span>
             </div>
             <div class="detialConditionDataInputHP">
                 <span class="colorFont">
@@ -233,11 +242,9 @@
                 </span>
 
                 <span>
-                    <div class="informationInput select" id="trigger9">
-
+                    <div class="informationInput select" id="trigger4">
                     </div>
-                    <div class="informationInput select" id="trigger10">
-
+                    <div class="informationInput select" id="trigger5">
                     </div>
                 </span>
             </div>

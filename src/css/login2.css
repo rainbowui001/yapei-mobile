@@ -1,3 +1,6 @@
+*{
+    outline: none;
+}
 .babyInformation{
     color: #f49300;
     padding-left:10px;
