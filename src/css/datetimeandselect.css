@@ -1,3 +1,8 @@
+/*消除两个控件的影响*/
+.table-condensed .select{
+    display: table-cell;
+}
+
 /*客户化*/
 .detialConditionDataInputHP>:nth-child(2)>:nth-child(1){
     width: 100%;
@@ -5,6 +10,7 @@
 #trigger2{
     width: 49%;
     margin-right: 0;
+    line-height: 48px;
 }
 #trigger3{
     width: 48%;
@@ -15,10 +21,7 @@
     width: 65%!important;
 }
 .m_datetime > button{
-    border: 0;
-}
-.m_datetime > button:after{
-    margin-top: -9px;
+    border-color: #eee;
 }
 .dtPicker .select{
     width: auto;
