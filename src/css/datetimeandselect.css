@@ -3,7 +3,10 @@
     display: table-cell;
 }
 
-/*客户化*/
+/*index details客户化*/
+button.addOn{
+    height: 30px;
+}
 .detialConditionDataInputHP>:nth-child(2)>:nth-child(1){
     width: 100%;
 }
@@ -14,24 +17,38 @@
 }
 #trigger3{
     width: 48%;
+    line-height: 48px;
 }
 
 /*日期控件*/
+/**/
+.iDate.date {
+    height: 30px;
+    width: 65%;
+  }
+  .iDate>button{
+    border: 1px solid #eee;
+  }
+  .iDate>input{
+    border:0 !important;
+  }
+/*一行两个m_datetime*/
 .m_datetime{
-    width: 65%!important;
+    width: 33.7%!important;
 }
 .m_datetime > button{
     border-color: #eee;
 }
+
 .dtPicker .select{
     width: auto;
 }
 /*下拉控件*/
-.m_select{
+/* .m_select{
     padding: 0 5px;
     border: 1px solid #eee;
     border-radius: 3px;
     height: 30px!important;
-}
+} */
     
          

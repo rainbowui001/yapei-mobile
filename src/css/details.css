@@ -65,6 +65,7 @@ body {
     {
          color: #cdcdcd;
          font-size: 12px;
+         border-radius: 5px;
     }
     .detialConditionDataInputHP>span{
         display:inline-block;

@@ -127,6 +127,9 @@
    .className>span{
        font-size: 14px;
    }
+   .classInput{
+       margin-bottom: 10px;
+   }
    .classInput>input{
        margin: 10px 0;
        width:120px;
