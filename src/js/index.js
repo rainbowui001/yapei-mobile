@@ -27,6 +27,9 @@ $(document).ready(function(){
                     ],
             position:[2] //初始化定位
         });
+    }
+
+    if($("#trigger2").length>0){
         var mobileSelect2 = new MobileSelect({
             trigger: '#trigger2',
             title: '请选择县市',
@@ -35,6 +38,8 @@ $(document).ready(function(){
                     ], 
             position:[2] //初始化定位
         });
+    }
+    if($("#trigger3").length>0){
         var mobileSelect3 = new MobileSelect({
             trigger: '#trigger3',
             title: '请选择区',
@@ -44,7 +49,26 @@ $(document).ready(function(){
             position:[2] //初始化定位
         });
     }
-       
+    if($("#trigger4").length>0){
+        var mobileSelect2 = new MobileSelect({
+            trigger: '#trigger4',
+            title: '请选择县市',
+            wheels: [
+                        {data:['中部','南部','北部']}
+                    ], 
+            position:[2] //初始化定位
+        });
+    }
+    if($("#trigger5").length>0){
+        var mobileSelect3 = new MobileSelect({
+            trigger: '#trigger5',
+            title: '请选择区',
+            wheels: [
+                        {data:['中正区','大同区','松山区','内湖区']}
+                    ],
+            position:[2] //初始化定位
+        });
+    }
    
     var height  =$(window).height();
     var flag = true;
