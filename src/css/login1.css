@@ -53,9 +53,9 @@ body{
     display: inline-block;
     line-height: 30px;
     height: 30px;
-    margin-top: 10;
     margin-top: -9px;
     font-size: 11px !important;
+    right: 0px !important;
 }
 .loginInformation>div>:nth-child(1){
     font-size: 14px;
