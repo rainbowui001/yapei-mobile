@@ -96,7 +96,8 @@ textarea{color: #333!important;}
     font-weight: bolder;
 }
 /*问卷调查正文*/
-.questionnaire-survey label{
+.questionnaire-survey label,
+.questionnaire-survey input[type^='text']{
     font-size: 10px;
 }
 /*段落*/

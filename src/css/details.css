@@ -41,7 +41,8 @@ body {
           height: 50px;
           font-size:15px; 
           width: 100%;
-          padding:10px;
+          padding-left:10px;
+          padding-right: 0;
       }
       .detialConditionDataInput>span{
           display: inline-block;
@@ -65,7 +66,7 @@ body {
     {
          color: #999;
          font-size: 12px;
-         border-radius: 5px;
+         border-radius: 4px;
     }
     .detialConditionDataInputHP>span{
         display:inline-block;
@@ -172,15 +173,17 @@ body {
     .phone{
         display: inline-block;
         width: 65% !important;
+        margin-left: 1.2%;
     }
    .phone1{
         padding: 0 5px;
         border: 1px solid #c9c9c9;
-        border-radius: 3px !important;
+        border-radius: 4px !important;
         height: 30px;
         line-height: 30px;
         color:#333;
-       width: 29.5% !important;
+        width: 30.5% !important;
+        margin-left: -2%;
    }
 
      /*模态框*/

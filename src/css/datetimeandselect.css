@@ -40,7 +40,7 @@ button.addOn{
     
 }
 #trigger2,#trigger4,#trigger6,#trigger8,#trigger10,#trigger12{
-    width: 48%;
+    width: 47%;
     vertical-align: bottom;
     height: 30px;
     line-height: 30px;
@@ -98,5 +98,8 @@ button.addOn{
     border-radius: 3px;
     height: 30px!important;
 } */
+.select{
+    border-radius: 4px;
+}
     
          
