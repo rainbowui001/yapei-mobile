@@ -1,3 +1,7 @@
+body{
+    position: relative;
+}
+
 *{
     outline: none;
 }
@@ -149,4 +153,9 @@
     margin: 5px 0 15px 0;
     font-size: 15px;
     font-weight: lighter;
+}
+
+/* identifying */
+.identifying>input{
+    width: 60% !important;
 }
