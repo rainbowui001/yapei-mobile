@@ -1,3 +1,7 @@
+*{
+    outline: none;
+}
+
 .successBG
 {
     width:84%;
@@ -14,23 +18,26 @@
 }
 
 .sign-in-container-p1{
+    text-align: center;
     width: 92%;
     margin: 15px auto 30px auto;
     }
 .btn-lg-purpel{
-    width: 100%;
+    border:0px !important;
+    width: 93%;
     color: #fff;
     background-color: #a766af;
     height: 45px;
-    border-radius: 7px;
+    border-radius: 10px;
     margin: 5px 0 15px 0;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: lighter;
 }
 .btn-lg-purpel:focus{
     background-color: #64167d;
 }
 .successFont>:nth-last-child(1){
+    text-indent: 2em;
     margin-bottom:5px;
 }
 .successFont{
