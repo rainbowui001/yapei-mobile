@@ -25,6 +25,9 @@ body {
     border-color: #c9c9c9;
     box-shadow: none;
 }
+input::-webkit-input-placeholder{
+    color:#c9c9c9;
+}
 /*顶部返回*/
 .head_return{
     width: 100%;
@@ -322,4 +325,12 @@ body {
     line-height: 48px;
     font-size: 16px;
     color: #63337D;
+}
+/*+-*/
+.shopping-trolley-container_count > div > input{
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: -2px;
+    left: 8px;
 }
