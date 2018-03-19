@@ -244,6 +244,9 @@ textarea{color: #333!important;}
 }
 .questionnaire-survey-radio-form > .radio > label{
     color: #000;
+    vertical-align: middle;
+    margin-bottom: 1px;
+    line-height: 20px;
 }
 .questionnaire-survey-radio-form > .radio > label > input{
     margin-right: 8px;
