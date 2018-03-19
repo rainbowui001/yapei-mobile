@@ -247,7 +247,7 @@ body {
         top: 3px;
     
     }
-    .modal-header > button > span::after{
+    /* .modal-header > button > span::after{
         content: "";
     height: 50px;
     border: 1px solid #fff;
@@ -255,6 +255,6 @@ body {
     top: 34px;
     right: 20px;
     
-    }
+    } */
 
 
