@@ -100,6 +100,17 @@ textarea{color: #333!important;}
 .questionnaire-survey input[type^='text']{
     font-size: 10px;
 }
+/*调查正文题目*/
+.question-text>span{
+    display: inline-block;
+}
+.question-text>span:nth-child(1){
+    width: 5%;
+    vertical-align: top;
+}
+.question-text>span:nth-child(2){
+    width: 94%;
+}
 /*段落*/
 .questionnaire-survey-container{
     max-width: 94%;

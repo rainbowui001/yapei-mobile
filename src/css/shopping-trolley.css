@@ -183,8 +183,8 @@ body {
     position: relative;
     left: 25%;
     top: 30%;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 15%;
+    padding-bottom: 15%;
 }
 .shopping-trolley-container_p_right > h5,
 .shopping-trolley-container_p_right > h4
@@ -283,10 +283,11 @@ body {
 /*底部计算*/
 .shopping-trolley-bottom{
     background-color: #fff;
-    height: 40px;
+    height: 48px;
     width: 100%;
     position: fixed;
     bottom: 0;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
 }
 .shopping-trolley-bottom_left{
     width: 30%;
@@ -295,7 +296,7 @@ body {
 .shopping-trolley-bottom_right{
     position: relative;
     width: 70%;
-    float: left;
+    float: right;
 }
 .shopping-trolley-bottom_right > div.shopping-trolley-bottom_button{
     position: absolute;
@@ -318,7 +319,7 @@ body {
 }
 .shopping-trolley-bottom_right > p{
     margin: 0;
-    line-height: 40px;
+    line-height: 48px;
     font-size: 16px;
     color: #63337D;
 }
