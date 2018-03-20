@@ -1,3 +1,7 @@
+body{
+    position: relative;
+}
+
 *{
     outline: none;
 }
@@ -117,8 +121,30 @@
     color: #fff;
     line-height: 27px;
     margin: 0 auto;
+    position: relative;
+    z-index: 99;
 }
-.wizard > div > div:first-child::after{
+.wizard::before {
+    content: "";
+    height: 3px;
+    width: 30%;
+    background-color: #6d1c7e;
+    display: block;
+    position: absolute;
+    top: 42px;
+    left: 20%;
+}
+.wizard::after {
+    content: "";
+    height: 3px;
+    width: 30%;
+    background-color: #cccccc;
+    display: block;
+    position: absolute;
+    top: 42px;
+    left: 50%;
+}
+.wizard > div:first-child > div:first-child::after{
     content: "";
     height: 3px;
     width: 30%;
@@ -133,6 +159,9 @@
 }
 .wizard > div > div:nth-child(2){
     padding-top: 5px;
+}
+.wizard > div:nth-child(3) > div:first-child{
+    background-color: #cccccc;
 }
 
 
@@ -150,3 +179,9 @@
     font-size: 15px;
     font-weight: lighter;
 }
+
+/* identifying */
+.identifying>input{
+    width: 60% !important;
+}
+
