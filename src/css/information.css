@@ -203,7 +203,7 @@
         height: 30px;
         line-height: 30px; 
         padding: 0 5px;    
-        color:#cdcdcd; 
+        /* color:#cdcdcd;  */
         display:inline-block;
     }
     .sign-in-container-p1{

@@ -65,7 +65,7 @@ body {
     .detialConditionDataInput>div>input[placeholder],
     .phone1[placeholder]
     {
-         color: #999;
+         /* color: #999; */
          font-size: 12px;
          border-radius: 4px;
     }

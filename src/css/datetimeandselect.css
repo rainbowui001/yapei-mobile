@@ -1,3 +1,13 @@
+input::-ms-input-placeholder{color: #999;font-size: 12px;}
+input::-webkit-input-placeholder{color: #999;font-size: 12px;}
+input{color: #333!important;font-size: 12px;}
+textarea{color: #333!important;font-size: 12px;}
+.colorFont > span > span{
+    font-size: 15px;
+    position: relative;
+    top: 4px;
+}
+
 /*消除两个控件的影响*/
 .table-condensed .select{
     display: table-cell;
@@ -11,25 +21,38 @@ button.addOn{
     width: 100%;
 }
 /*01-09为单个不是一对*/
-#trigger1,#trigger3,#trigger5,#trigger7,#trigger9,#trigger11{
+#trigger3,#trigger5,#trigger7,#trigger9,#trigger11{
     width: 49%;
     margin-right: 0;
     vertical-align: bottom;
     height: 30px;
     line-height: 30px;
+    font-size: 12px;
 }
-#trigger20,#trigger21,#trigger22,#trigger23,#trigger10,#trigger11,#trigger18{
+#trigger2,#trigger4,#trigger6,#trigger8,#trigger10{
+    width: 47%;
+    vertical-align: bottom;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+#trigger20,#trigger21,#trigger22,#trigger23,#trigger10,#trigger11,#trigger18,
+#time,#bill,#xueli,#job,#trigger1,
+#relationship1,#relationship2,#relationship3{
     width: 65%;
     margin-right: 0;
     vertical-align: bottom;
     height: 30px;
     line-height: 30px;
+    font-size: 12px;
 }
 #trigger2::before,#trigger4::before,#trigger6::before,#trigger8::before,#trigger12::before,
 #trigger16::before,#trigger3::before,#trigger5::before,#trigger7::before,
 #trigger9::before,#trigger13::before,#trigger17::before,#trigger1::before,
 #trigger20::before,#trigger21::before,#trigger22::before,#trigger23::before,
-#trigger10::before,#trigger11::before,#trigger18::before{
+#trigger10::before,#trigger11::before,#trigger18::before,
+#time::before,#bill::before,#xueli::before,#job::before,#trigger1::before,
+#relationship1::before,#relationship2::before,#relationship3::before{
     content: "\e114";
     display: inline-block;
     font-family: 'Glyphicons Halflings';
@@ -39,12 +62,7 @@ button.addOn{
     right: 5px;
     
 }
-#trigger2,#trigger4,#trigger6,#trigger8,#trigger10,#trigger12{
-    width: 47%;
-    vertical-align: bottom;
-    height: 30px;
-    line-height: 30px;
-}
+
 
 /*日期控件*/
 /**/
