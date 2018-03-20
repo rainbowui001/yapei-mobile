@@ -178,7 +178,7 @@ input::-webkit-input-placeholder{
     width: 30%;
     float: left;
 }
-.shopping-trolley-container_p_left > .radio-custom{
+.shopping-trolley-container_p_left > .checkbox-custom{
     position: absolute;
 }
 .shopping-trolley-container_p_left > img{
@@ -245,16 +245,16 @@ input::-webkit-input-placeholder{
     border-bottom-right-radius: 4px;
 }
 
-/*radio*/
-    .radio-custom {
+/*checkbox*/
+    .checkbox-custom {
         position: relative;
     } 
-    .radio-custom input[type="radio"] {
+    .checkbox-custom input[type="checkbox"] {
         opacity: 0;
         cursor: pointer;
         /* z-index: 2; */
     }
-    .radio-custom label:before {
+    .checkbox-custom label:before {
         content: '';
         position: absolute;
         top: 150%;
@@ -267,10 +267,10 @@ input::-webkit-input-placeholder{
         border: 1px solid #63337D;
         background: #fff;
     }
-    .radio-custom input[type="radio"]:checked +label:after {
+    .checkbox-custom input[type="checkbox"]:checked +label:after {
         border:1px solid #c9c9c9;
     }
-    .radio-custom input[type="radio"]:checked +label:after {
+    .checkbox-custom input[type="checkbox"]:checked +label:after {
         position: absolute;
         display: inline-block;
         font-family: 'Glyphicons Halflings';
@@ -314,10 +314,10 @@ input::-webkit-input-placeholder{
     line-height: 30px;
     background-color: #63337D;
 }
-.shopping-trolley-bottom .radio-custom label{
+.shopping-trolley-bottom .checkbox-custom label{
     padding-left: 35px;
 }
-.shopping-trolley-bottom .radio-custom label:before {
+.shopping-trolley-bottom .checkbox-custom label:before {
     top: 40%
 }
 .shopping-trolley-bottom_right > p{
