@@ -70,21 +70,21 @@ $(document).ready(function(){
         });
     }
    
-    var height  =$(window).height();
-    var flag = true;
-    $(window).scroll(function(event){
-        var winPos = $(window).scrollTop();
-        if(winPos>height){
-            if(flag){
-                $(".headLink").addClass("fixed-top");
-                flag = false;
-            }
-        }else{
-            if(!flag){
-                $(".headLink").removeClass("fixed-top");
-                flag = true;
-            }
-        }
+    // var height  =$(window).height();
+    // var flag = true;
+    // $(window).scroll(function(event){
+    //     var winPos = $(window).scrollTop();
+    //     if(winPos>height){
+    //         if(flag){
+    //             $(".headLink").addClass("fixed-top");
+    //             flag = false;
+    //         }
+    //     }else{
+    //         if(!flag){
+    //             $(".headLink").removeClass("fixed-top");
+    //             flag = true;
+    //         }
+    //     }
 
-    });
+    // });
 })
