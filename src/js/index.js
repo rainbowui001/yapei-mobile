@@ -69,7 +69,78 @@ $(document).ready(function(){
             position:[2] //初始化定位
         });
     }
-   
+    if($("#time").length>0){
+        var mobileSelect2 = new MobileSelect({
+            trigger: '#time',
+            title: '请选择时间',
+            wheels: [
+                        {data:['8-18時(不指定）','8-13時','14-18時（最晚配送時段）']}
+                    ], 
+            position:[2] //初始化定位
+        });
+    }
+    if($("#bill").length>0){
+        var mobileSelect2 = new MobileSelect({
+            trigger: '#bill',
+            title: '请选择时间',
+            wheels: [
+                        {data:['个人','两联','公司']}
+                    ], 
+            position:[2] //初始化定位
+        });
+    }
+    if($("#xueli").length>0){
+        var mobileSelect3 = new MobileSelect({
+            trigger: '#xueli',
+            title: '请选择学历',
+            wheels: [
+                        {data:['高中','大学','硕士','博士']}
+                    ],
+            position:[2] //初始化定位
+        });
+    }
+    if($("#job").length>0){
+        var mobileSelect3 = new MobileSelect({
+            trigger: '#job',
+            title: '请选职业',
+            wheels: [
+                        {data:['工程师','销售','教师','个体']}
+                    ],
+            position:[2] //初始化定位
+        });
+    }
+    if($("#relationship1").length>0){
+        var mobileSelect3 = new MobileSelect({
+            trigger: '#relationship1',
+            title: '请选职业',
+            wheels: [
+                        {data:['母女','父女','母子','父子']}
+                    ],
+            position:[2] //初始化定位
+        });
+    }
+    if($("#relationship2").length>0){
+        var mobileSelect3 = new MobileSelect({
+            trigger: '#relationship2',
+            title: '请选职业',
+            wheels: [
+                        {data:['母女','父女','母子','父子']}
+                    ],
+            position:[2] //初始化定位
+        });
+    }
+    if($("#relationship3").length>0){
+        var mobileSelect3 = new MobileSelect({
+            trigger: '#relationship3',
+            title: '请选职业',
+            wheels: [
+                        {data:['母女','父女','母子','父子']}
+                    ],
+            position:[2] //初始化定位
+        });
+    }
+
+    
     // var height  =$(window).height();
     // var flag = true;
     // $(window).scroll(function(event){
